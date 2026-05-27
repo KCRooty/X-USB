@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">X-USB</string>
+    <string name="no_device">Sin dispositivo conectado</string>
+    <string name="eject">Expulsar</string>
+    <string name="tools">Herramientas</string>
+    <string name="theme">Tema</string>
+    <string name="coming_soon">En desarrollo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="warning_erase">Se eliminarán TODOS los datos del USB.</string>
+    <string name="requires_root">Requiere acceso root</string>
+    <string name="mount">Montar</string>
+    <string name="unmount">Desmontar</string>
+    <string name="backup">Respaldo</string>
+    <string name="restore">Restaurar</string>
+    <string name="partitions">Particiones</string>
+    <string name="new_partition">Nueva Partición</string>
+    <string name="format">Formatear</string>
+    <string name="wipe">Borrar</string>
+    <string name="download">Descargar</string>
+</resources>
