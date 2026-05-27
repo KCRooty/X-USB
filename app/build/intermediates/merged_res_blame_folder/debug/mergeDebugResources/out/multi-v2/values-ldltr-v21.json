@@ -4,7 +4,7 @@
             "outputFile": "com.xusb.app-mergeDebugResources-67:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/home/alfy/.gradle/caches/9.0.0/transforms/2362db6e86711a3e6b9557c9482f3226/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "/home/alfy/.gradle/caches/9.0.0/transforms/9f95be1d2c74dca87f594fae30ecdef4/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

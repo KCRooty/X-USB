@@ -4,90 +4,90 @@ ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:2:1-47:12
 INJECTED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:2:1-47:12
 INJECTED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:2:1-47:12
 INJECTED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:2:1-47:12
-MERGED from [androidx.navigation:navigation-common:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/0d13c52e643117d13ef82f31e15fe58b/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/3c9ca210795dd45b169b66ad2f52aae8/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/d8ac6545bf1776e62d534f29ebde5277/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/c8206a30ad88fa0a67d0a0bae08e05ce/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/e1483d3ffc49cdf13c20929ef4a9fe73/transformed/navigation-compose-2.7.7/AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt:coil-compose:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/d229f08112f2462ab639ec270f291a9a/transformed/coil-compose-2.6.0/AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt:coil-compose-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/092f0d605d3f60cdf9e9cc730844239c/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt:coil:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/7b725e3faa7ce2171a9f80cc8768ae97/transformed/coil-2.6.0/AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt:coil-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/598449ec03c8a20dcef986955680ef52/transformed/coil-base-2.6.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/ebc4a328453c21814ef41f54baccef73/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/2362db6e86711a3e6b9557c9482f3226/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/f860271fcf4c9530e857e86038b41435/transformed/material3-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/daed7709fa518204fe5e5939a3a12bad/transformed/material-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/433e1a27b66a9bb51278b7b483ec66d2/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-extended-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/fbe70c4748202235e2da76dda182f622/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-ripple-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/04963e78c3f6f7ec266a5cb860767923/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/5cb8907526bdc12ffc8a1ae7102b20f1/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/94fb7334f0602f3219f9e8f901ca5918/transformed/animation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/cf0eff746e89e7b100ac441b0eab92e8/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/ca3ead14554da6d89e4eb72f652b2384/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/5942efffe1b1fa044db64cd4d5e1adbd/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/6daf0e6a2c8b00421fb97a92b1bbf4b8/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/cec0b2f793332768d89cc75606b55a59/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-util-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/60ad2cea014f3cbf5591d6ef0fb9b7d5/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/87ed34deefb922e64c5d0148eb90fe6b/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/a930ee14a58e187e310bcf91a4b537b9/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e1efc6fd1ed05abb955a2a4c61063e8f/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/65c99a9f12c84a07afda0acbf7e2b787/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/alfy/.gradle/caches/9.0.0/transforms/8da64e5f8b260812501692daec84e6d3/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.compose.ui:ui-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/8f79b3f23cebbafa67d30af59f9808ba/transformed/ui-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-google-fonts:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/428512e72a0758eda9a732134c7aae47/transformed/ui-text-google-fonts-1.6.5/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/24e0734917935dd5987e57f2ba864810/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.3.6] /home/alfy/.gradle/caches/9.0.0/transforms/f62bfc78b9491381f085b2579d8f7b1f/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/f22f7d3f342c112d95d2825ab87d1783/transformed/activity-1.9.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/cb6d791fd63b08343966ad51a0c90434/transformed/activity-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-compose:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/4b6bd7990667429ed53e410f243fce43/transformed/activity-compose-1.9.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/ff543d14f92c575abcccff8363319661/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/f265df26b6e1cd6d3b248042f59ebb61/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/2cd938a94e9abf0dd8c26ed097ff156f/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:17:1-145:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/181f23abde5765ec50bd2f54a0ea45bc/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/287c78672f3e0f41c991123c233adc9e/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b8de448fd79ef424ce10d2356f180f82/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/beddfbeb6b59ed500a692b3c80c94963/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/19298115e6e80fcea36efb936c840a62/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.loader:loader:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/32b00119a1af5f4b1dac54a1cc54c1fb/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fb9b68840793f644ad024e827c8ec07/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/e81256cf61c8ffab5a15631f79d914fc/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/c7e11579457817d1179c177c0ae03ea8/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/4a3fb3eb02784fd826c4192687779129/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/8b270c479ff739dd2409b828381ec373/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/a867853768f5161ae95c409e6886a455/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/876883b6249f32d8bde47ec3811c5a55/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/2334daefd2256fdf83d24ea81d2db3e1/transformed/core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/8a1aca92baa6f3a89b8f6f078e6bd469/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/fab06a29e80c411df4c83f29d419bacd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/933fc450a53fcd22675f7731a9991055/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/efb970e09f4db434b052ec6503280ccc/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.autofill:autofill:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/e5189bdf99584f9781c0471d454d813f/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/3f8da8c5e50af3f6170bfb5c7703abca/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/3f03291dd53670e21a893fdf5832fc29/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/ec314806e8cf5e10c530adc39dcf223f/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/358e4347e8416c9a42c4987a52efd463/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.datastore:datastore-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/e68eebaaf372548b7badaf3b5db1526d/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/cc93e4b087f023d8413658033efa7cdc/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/ca48d5cfd7f4705ac70e73f22595fac7/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/08fc4472089f3d1d44aebb8d4e319db9/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.room:room-ktx:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/e52575b0c2f029296f2e7fba45d9bc1f/transformed/room-ktx-2.5.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/cad4f30f6e8fdd8d50fc2c4fb30e36fd/transformed/room-runtime-2.5.0/AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/fbc99a5cac6cbfe5df993366b3abc642/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/alfy/.gradle/caches/9.0.0/transforms/cebd32c01700bf3e64f34da4ff6f1c11/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.sqlite:sqlite:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/f2fff19b00a1b031e26031533bc8351e/transformed/sqlite-2.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/2cb25118c81b95816977b46efd85caa3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/e95b4dbfd74060228a25b4d2a57cb3f5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/alfy/.gradle/caches/9.0.0/transforms/31215bc285dae3e1fb770b9a992a617f/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/68ea46f86132ce876c91831765b7e2f6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/c8a3650ef27fd8edea14e77db0778c86/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/alfy/.gradle/caches/9.0.0/transforms/98a4dbb5d08fb0e91c226baf6b7daf36/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/1dacf36416644cd3487b1fc93649703a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.topjohnwu.libsu:io:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/22b23e3c83b923937150d4a238c1ce78/transformed/io-5.3.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.github.topjohnwu.libsu:core:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/a138afa4b970225cf5db18eb92dd119f/transformed/core-5.3.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.github.topjohnwu.libsu:nio:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/84bc45410981931d916f90df7ee36e9f/transformed/nio-5.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/8f98676326358d997a1b0d407480fee6/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/683cbcc39c2f078294730ac17216db15/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/7d4e32931aec9b647fad5e5b24f8290f/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/0bb5b0bd019ca4208e4331d1f24c1689/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/d8c9fecda5a8d2c05e33eb862a9469f0/transformed/navigation-compose-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/957dda6d3478eabe6fd5f17ddd731998/transformed/coil-compose-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/c77463cfbc7374b4df2387c6ad2b8428/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/ba5f16716cd49c27b929d0005859304e/transformed/coil-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/62f23c81f4e613988813512755e3952c/transformed/coil-base-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/69d2606f1fb6b3f5f4258ff70e1813e1/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/9f95be1d2c74dca87f594fae30ecdef4/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/9191fb8ada4a3424ab84bba1d37b4977/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/6a77fe47b1622bf2fb16d70b5503d33d/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/13f86a76da9db2808f46d134c47e082f/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/a89a590f2baef7450addc276f29f65df/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/34798983f74880e23ec4fe3e1e5ba0ee/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/c3c80b7a830b055695ce35ff7a417bde/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/64a33148f1ded6b3685e53f953c48c13/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/8b16ffc25a40b40435ca2287ff4a0a0c/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e988fa06c14ecebffbda398da58e4a6f/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e33892d95cd1aeef162f09c290ca35c8/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e0f1c9f620b45ad75bf455eb095659db/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/6a009174afb0249402fc7d584f43e447/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/0a1affb68c84c89e24d3c71e4a6c5c62/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/42296c90c5d9ea7ac15a743c06eeb19a/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/d2969dcde36de5d779213d31d9043362/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/53f3776de6e629a9ed1ef94f7f702bdd/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e436ed4888f6bf4d781a6795b04d9028/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/alfy/.gradle/caches/9.0.0/transforms/be50e396f2b31db596575b0ba505a28e/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.ui:ui-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/4e2c5f51cc523bb173366544166d69c5/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e70522d8cd1b9298013e0b5bf7bcd37a/transformed/ui-text-google-fonts-1.6.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/98711ca43f6d60b9b73618777646d889/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/alfy/.gradle/caches/9.0.0/transforms/d9bd584f0c2fa95af8874f2614b4fc66/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/fbbb2ff51d8c819caf432a60b7303e67/transformed/activity-1.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/4383254773c62748c8c0d301655b8244/transformed/activity-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/3c144bf9ed22dd45f64944bcb5083726/transformed/activity-compose-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/031b32aa059d561f406128c6bb2f908b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/e6250e342a3df19f45550dd0cad8d778/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/8c8b98b859b1a5ff9c97f4abe1e5378c/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/3e9b326f12282b5e9a0d02381782d5cf/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/348edf8510b6be69339aaa30483820bf/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d77c9370296168aabccc6bdd93a86cf6/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b7437a444102f595a6939f00ff15c691/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/dbb02361db4be0ec5d088599a529c037/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/721e22f4ded6ca24e1b2fb13d67867c3/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/1a4cae75300e9e5cc8c341927fecbf45/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/aadeebf580458e4771fb80c6940c0b80/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/ec0ab86f0b32586bc892aed1510a1e42/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/32dd61b4d95b7674e58fa2948158d41e/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/374b3f34bcfd62e0070e2e463a231ea3/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/ebb83ce34a294532877bbeaf92eed2c0/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/8ecd077d1249480ba0bd2a4244d3a9e8/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/8fcdd5175decdab9348ef298328da8f4/transformed/core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/4c6d429868a7046f64e7550226d2d114/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/b2c7f7c74fd72d90543715df7e4b2e27/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/58b03b1c1275ffa803d0afbd2d6defe5/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/c3f09794a70434b0bf40577f636af9f6/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/687eea16651d9adcea0263fefd7d8c0c/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/66fd257b1d1096374e83e42d090353ac/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d6f8d21815b3f8615b3ab9128a564fff/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/f9cdf19695a9e4dfcbedd4f2ede29815/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/0aa6037f2f9b5c24742627e9fe86c21d/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/72810a91a79169e413eceb9101ec6ad1/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/9c7a5adebdd3cc0524291f302df19390/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/4dc3b40faa75802e8767e056961c3a74/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/9db53579c5f5504f81ce36a51e0b4aea/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-ktx:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/843c7e489753167f34557e0e2e39b1d3/transformed/room-ktx-2.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fa570d4468a84ddeac57c1af7034471/transformed/room-runtime-2.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/194810cbaad473c0f9ef0aae8d6dfeca/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/alfy/.gradle/caches/9.0.0/transforms/4d8f711e39d6576893f109113732541e/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/a4b3eaa5933a08eba05942c6d399a3ba/transformed/sqlite-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/8b8c1036aae1cbde72a21b819d48011d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/ddfd13ee5db7705937f24b3e5b2275eb/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/alfy/.gradle/caches/9.0.0/transforms/9c3cd58ab2a481ea02f722237144aace/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/1ba2faf811147de56a992a89118023ef/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/cb745031d84c1dbfa63aca4fe452b5af/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/alfy/.gradle/caches/9.0.0/transforms/238acb7d36afb6f2107b01d224eeecd2/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/f388364a633964ded15995924e53de7a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.topjohnwu.libsu:io:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/0567dcea4fc9a9da38679160b77b898a/transformed/io-5.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.topjohnwu.libsu:core:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/ef05fc70c73f78afb9abd33e3d3379a8/transformed/core-5.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.topjohnwu.libsu:nio:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/5a3303968f7d122afa445e527531c651/transformed/nio-5.3.0/AndroidManifest.xml:2:1-7:12
 	package
 		INJECTED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -124,8 +124,8 @@ ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:11:5-82
 		ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:11:22-79
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:12:5-77
-MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
-MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
 	android:name
 		ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:12:22-74
 uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
@@ -134,39 +134,39 @@ ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:13:5-87
 		ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:13:22-84
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
 ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:14:5-81
-MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
-MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
 	android:name
 		ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:14:22-78
 application
 ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:16:5-46:19
 INJECTED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:16:5-46:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e1efc6fd1ed05abb955a2a4c61063e8f/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e1efc6fd1ed05abb955a2a4c61063e8f/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/24e0734917935dd5987e57f2ba864810/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/24e0734917935dd5987e57f2ba864810/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
-MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/287c78672f3e0f41c991123c233adc9e/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/287c78672f3e0f41c991123c233adc9e/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b8de448fd79ef424ce10d2356f180f82/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b8de448fd79ef424ce10d2356f180f82/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/cad4f30f6e8fdd8d50fc2c4fb30e36fd/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/cad4f30f6e8fdd8d50fc2c4fb30e36fd/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/2cb25118c81b95816977b46efd85caa3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/2cb25118c81b95816977b46efd85caa3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/68ea46f86132ce876c91831765b7e2f6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/68ea46f86132ce876c91831765b7e2f6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/53f3776de6e629a9ed1ef94f7f702bdd/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/53f3776de6e629a9ed1ef94f7f702bdd/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/98711ca43f6d60b9b73618777646d889/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/98711ca43f6d60b9b73618777646d889/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/348edf8510b6be69339aaa30483820bf/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/348edf8510b6be69339aaa30483820bf/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d77c9370296168aabccc6bdd93a86cf6/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d77c9370296168aabccc6bdd93a86cf6/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fa570d4468a84ddeac57c1af7034471/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fa570d4468a84ddeac57c1af7034471/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/8b8c1036aae1cbde72a21b819d48011d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/8b8c1036aae1cbde72a21b819d48011d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/1ba2faf811147de56a992a89118023ef/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/1ba2faf811147de56a992a89118023ef/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml
 	android:requestLegacyExternalStorage
 		ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:23:9-52
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml:21:9-35
 	android:label
@@ -221,505 +221,505 @@ uses-sdk
 INJECTED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml
 INJECTED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml
-MERGED from [androidx.navigation:navigation-common:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/0d13c52e643117d13ef82f31e15fe58b/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/0d13c52e643117d13ef82f31e15fe58b/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/3c9ca210795dd45b169b66ad2f52aae8/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/3c9ca210795dd45b169b66ad2f52aae8/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/d8ac6545bf1776e62d534f29ebde5277/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/d8ac6545bf1776e62d534f29ebde5277/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/c8206a30ad88fa0a67d0a0bae08e05ce/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/c8206a30ad88fa0a67d0a0bae08e05ce/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/e1483d3ffc49cdf13c20929ef4a9fe73/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/e1483d3ffc49cdf13c20929ef4a9fe73/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-compose:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/d229f08112f2462ab639ec270f291a9a/transformed/coil-compose-2.6.0/AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-compose:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/d229f08112f2462ab639ec270f291a9a/transformed/coil-compose-2.6.0/AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-compose-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/092f0d605d3f60cdf9e9cc730844239c/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-compose-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/092f0d605d3f60cdf9e9cc730844239c/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/7b725e3faa7ce2171a9f80cc8768ae97/transformed/coil-2.6.0/AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/7b725e3faa7ce2171a9f80cc8768ae97/transformed/coil-2.6.0/AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/598449ec03c8a20dcef986955680ef52/transformed/coil-base-2.6.0/AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/598449ec03c8a20dcef986955680ef52/transformed/coil-base-2.6.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/ebc4a328453c21814ef41f54baccef73/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/ebc4a328453c21814ef41f54baccef73/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/2362db6e86711a3e6b9557c9482f3226/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/2362db6e86711a3e6b9557c9482f3226/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/f860271fcf4c9530e857e86038b41435/transformed/material3-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/f860271fcf4c9530e857e86038b41435/transformed/material3-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/daed7709fa518204fe5e5939a3a12bad/transformed/material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/daed7709fa518204fe5e5939a3a12bad/transformed/material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/433e1a27b66a9bb51278b7b483ec66d2/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/433e1a27b66a9bb51278b7b483ec66d2/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-extended-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/fbe70c4748202235e2da76dda182f622/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-extended-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/fbe70c4748202235e2da76dda182f622/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/04963e78c3f6f7ec266a5cb860767923/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/04963e78c3f6f7ec266a5cb860767923/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/5cb8907526bdc12ffc8a1ae7102b20f1/transformed/animation-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/5cb8907526bdc12ffc8a1ae7102b20f1/transformed/animation-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/94fb7334f0602f3219f9e8f901ca5918/transformed/animation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/94fb7334f0602f3219f9e8f901ca5918/transformed/animation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/cf0eff746e89e7b100ac441b0eab92e8/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/cf0eff746e89e7b100ac441b0eab92e8/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/ca3ead14554da6d89e4eb72f652b2384/transformed/foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/ca3ead14554da6d89e4eb72f652b2384/transformed/foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/5942efffe1b1fa044db64cd4d5e1adbd/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/5942efffe1b1fa044db64cd4d5e1adbd/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/6daf0e6a2c8b00421fb97a92b1bbf4b8/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/6daf0e6a2c8b00421fb97a92b1bbf4b8/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/cec0b2f793332768d89cc75606b55a59/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/cec0b2f793332768d89cc75606b55a59/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/60ad2cea014f3cbf5591d6ef0fb9b7d5/transformed/ui-util-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/60ad2cea014f3cbf5591d6ef0fb9b7d5/transformed/ui-util-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/87ed34deefb922e64c5d0148eb90fe6b/transformed/ui-text-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/87ed34deefb922e64c5d0148eb90fe6b/transformed/ui-text-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/a930ee14a58e187e310bcf91a4b537b9/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/a930ee14a58e187e310bcf91a4b537b9/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e1efc6fd1ed05abb955a2a4c61063e8f/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e1efc6fd1ed05abb955a2a4c61063e8f/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/65c99a9f12c84a07afda0acbf7e2b787/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/65c99a9f12c84a07afda0acbf7e2b787/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/alfy/.gradle/caches/9.0.0/transforms/8da64e5f8b260812501692daec84e6d3/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/alfy/.gradle/caches/9.0.0/transforms/8da64e5f8b260812501692daec84e6d3/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/8f79b3f23cebbafa67d30af59f9808ba/transformed/ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/8f79b3f23cebbafa67d30af59f9808ba/transformed/ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-google-fonts:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/428512e72a0758eda9a732134c7aae47/transformed/ui-text-google-fonts-1.6.5/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-google-fonts:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/428512e72a0758eda9a732134c7aae47/transformed/ui-text-google-fonts-1.6.5/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/24e0734917935dd5987e57f2ba864810/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/24e0734917935dd5987e57f2ba864810/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.3.6] /home/alfy/.gradle/caches/9.0.0/transforms/f62bfc78b9491381f085b2579d8f7b1f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/alfy/.gradle/caches/9.0.0/transforms/f62bfc78b9491381f085b2579d8f7b1f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/f22f7d3f342c112d95d2825ab87d1783/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/f22f7d3f342c112d95d2825ab87d1783/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/cb6d791fd63b08343966ad51a0c90434/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/cb6d791fd63b08343966ad51a0c90434/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/4b6bd7990667429ed53e410f243fce43/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/4b6bd7990667429ed53e410f243fce43/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/ff543d14f92c575abcccff8363319661/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/ff543d14f92c575abcccff8363319661/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/f265df26b6e1cd6d3b248042f59ebb61/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/f265df26b6e1cd6d3b248042f59ebb61/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/2cd938a94e9abf0dd8c26ed097ff156f/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/2cd938a94e9abf0dd8c26ed097ff156f/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/181f23abde5765ec50bd2f54a0ea45bc/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/181f23abde5765ec50bd2f54a0ea45bc/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/287c78672f3e0f41c991123c233adc9e/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/287c78672f3e0f41c991123c233adc9e/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b8de448fd79ef424ce10d2356f180f82/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b8de448fd79ef424ce10d2356f180f82/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/beddfbeb6b59ed500a692b3c80c94963/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/beddfbeb6b59ed500a692b3c80c94963/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/19298115e6e80fcea36efb936c840a62/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/19298115e6e80fcea36efb936c840a62/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/32b00119a1af5f4b1dac54a1cc54c1fb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/32b00119a1af5f4b1dac54a1cc54c1fb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fb9b68840793f644ad024e827c8ec07/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fb9b68840793f644ad024e827c8ec07/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/e81256cf61c8ffab5a15631f79d914fc/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/e81256cf61c8ffab5a15631f79d914fc/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/c7e11579457817d1179c177c0ae03ea8/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/c7e11579457817d1179c177c0ae03ea8/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/4a3fb3eb02784fd826c4192687779129/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/4a3fb3eb02784fd826c4192687779129/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/8b270c479ff739dd2409b828381ec373/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/8b270c479ff739dd2409b828381ec373/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/a867853768f5161ae95c409e6886a455/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/a867853768f5161ae95c409e6886a455/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/876883b6249f32d8bde47ec3811c5a55/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/876883b6249f32d8bde47ec3811c5a55/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/2334daefd2256fdf83d24ea81d2db3e1/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/2334daefd2256fdf83d24ea81d2db3e1/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/8a1aca92baa6f3a89b8f6f078e6bd469/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/8a1aca92baa6f3a89b8f6f078e6bd469/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/fab06a29e80c411df4c83f29d419bacd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/fab06a29e80c411df4c83f29d419bacd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/933fc450a53fcd22675f7731a9991055/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/933fc450a53fcd22675f7731a9991055/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/efb970e09f4db434b052ec6503280ccc/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/efb970e09f4db434b052ec6503280ccc/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.autofill:autofill:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/e5189bdf99584f9781c0471d454d813f/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/e5189bdf99584f9781c0471d454d813f/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/3f8da8c5e50af3f6170bfb5c7703abca/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/3f8da8c5e50af3f6170bfb5c7703abca/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/3f03291dd53670e21a893fdf5832fc29/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/3f03291dd53670e21a893fdf5832fc29/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/ec314806e8cf5e10c530adc39dcf223f/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/ec314806e8cf5e10c530adc39dcf223f/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/358e4347e8416c9a42c4987a52efd463/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/358e4347e8416c9a42c4987a52efd463/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.datastore:datastore-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/e68eebaaf372548b7badaf3b5db1526d/transformed/datastore-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/e68eebaaf372548b7badaf3b5db1526d/transformed/datastore-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/cc93e4b087f023d8413658033efa7cdc/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/cc93e4b087f023d8413658033efa7cdc/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/ca48d5cfd7f4705ac70e73f22595fac7/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/ca48d5cfd7f4705ac70e73f22595fac7/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/08fc4472089f3d1d44aebb8d4e319db9/transformed/runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/08fc4472089f3d1d44aebb8d4e319db9/transformed/runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.room:room-ktx:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/e52575b0c2f029296f2e7fba45d9bc1f/transformed/room-ktx-2.5.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-ktx:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/e52575b0c2f029296f2e7fba45d9bc1f/transformed/room-ktx-2.5.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/cad4f30f6e8fdd8d50fc2c4fb30e36fd/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/cad4f30f6e8fdd8d50fc2c4fb30e36fd/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/fbc99a5cac6cbfe5df993366b3abc642/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/fbc99a5cac6cbfe5df993366b3abc642/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/alfy/.gradle/caches/9.0.0/transforms/cebd32c01700bf3e64f34da4ff6f1c11/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/alfy/.gradle/caches/9.0.0/transforms/cebd32c01700bf3e64f34da4ff6f1c11/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.sqlite:sqlite:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/f2fff19b00a1b031e26031533bc8351e/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/f2fff19b00a1b031e26031533bc8351e/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/2cb25118c81b95816977b46efd85caa3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/2cb25118c81b95816977b46efd85caa3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/e95b4dbfd74060228a25b4d2a57cb3f5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/e95b4dbfd74060228a25b4d2a57cb3f5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/alfy/.gradle/caches/9.0.0/transforms/31215bc285dae3e1fb770b9a992a617f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/alfy/.gradle/caches/9.0.0/transforms/31215bc285dae3e1fb770b9a992a617f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/68ea46f86132ce876c91831765b7e2f6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/68ea46f86132ce876c91831765b7e2f6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/c8a3650ef27fd8edea14e77db0778c86/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/c8a3650ef27fd8edea14e77db0778c86/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/alfy/.gradle/caches/9.0.0/transforms/98a4dbb5d08fb0e91c226baf6b7daf36/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/alfy/.gradle/caches/9.0.0/transforms/98a4dbb5d08fb0e91c226baf6b7daf36/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/1dacf36416644cd3487b1fc93649703a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/1dacf36416644cd3487b1fc93649703a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.topjohnwu.libsu:io:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/22b23e3c83b923937150d4a238c1ce78/transformed/io-5.3.0/AndroidManifest.xml:5:5-44
-MERGED from [com.github.topjohnwu.libsu:io:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/22b23e3c83b923937150d4a238c1ce78/transformed/io-5.3.0/AndroidManifest.xml:5:5-44
-MERGED from [com.github.topjohnwu.libsu:core:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/a138afa4b970225cf5db18eb92dd119f/transformed/core-5.3.0/AndroidManifest.xml:5:5-44
-MERGED from [com.github.topjohnwu.libsu:core:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/a138afa4b970225cf5db18eb92dd119f/transformed/core-5.3.0/AndroidManifest.xml:5:5-44
-MERGED from [com.github.topjohnwu.libsu:nio:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/84bc45410981931d916f90df7ee36e9f/transformed/nio-5.3.0/AndroidManifest.xml:5:5-44
-MERGED from [com.github.topjohnwu.libsu:nio:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/84bc45410981931d916f90df7ee36e9f/transformed/nio-5.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/8f98676326358d997a1b0d407480fee6/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/8f98676326358d997a1b0d407480fee6/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/683cbcc39c2f078294730ac17216db15/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/683cbcc39c2f078294730ac17216db15/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/7d4e32931aec9b647fad5e5b24f8290f/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/7d4e32931aec9b647fad5e5b24f8290f/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/0bb5b0bd019ca4208e4331d1f24c1689/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/0bb5b0bd019ca4208e4331d1f24c1689/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/d8c9fecda5a8d2c05e33eb862a9469f0/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/alfy/.gradle/caches/9.0.0/transforms/d8c9fecda5a8d2c05e33eb862a9469f0/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/957dda6d3478eabe6fd5f17ddd731998/transformed/coil-compose-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/957dda6d3478eabe6fd5f17ddd731998/transformed/coil-compose-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/c77463cfbc7374b4df2387c6ad2b8428/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/c77463cfbc7374b4df2387c6ad2b8428/transformed/coil-compose-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/ba5f16716cd49c27b929d0005859304e/transformed/coil-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/ba5f16716cd49c27b929d0005859304e/transformed/coil-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/62f23c81f4e613988813512755e3952c/transformed/coil-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] /home/alfy/.gradle/caches/9.0.0/transforms/62f23c81f4e613988813512755e3952c/transformed/coil-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/69d2606f1fb6b3f5f4258ff70e1813e1/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/69d2606f1fb6b3f5f4258ff70e1813e1/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/9f95be1d2c74dca87f594fae30ecdef4/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/alfy/.gradle/caches/9.0.0/transforms/9f95be1d2c74dca87f594fae30ecdef4/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/9191fb8ada4a3424ab84bba1d37b4977/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/9191fb8ada4a3424ab84bba1d37b4977/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/6a77fe47b1622bf2fb16d70b5503d33d/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/6a77fe47b1622bf2fb16d70b5503d33d/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/13f86a76da9db2808f46d134c47e082f/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/13f86a76da9db2808f46d134c47e082f/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/a89a590f2baef7450addc276f29f65df/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/a89a590f2baef7450addc276f29f65df/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/34798983f74880e23ec4fe3e1e5ba0ee/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/34798983f74880e23ec4fe3e1e5ba0ee/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/c3c80b7a830b055695ce35ff7a417bde/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/c3c80b7a830b055695ce35ff7a417bde/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/64a33148f1ded6b3685e53f953c48c13/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/64a33148f1ded6b3685e53f953c48c13/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/8b16ffc25a40b40435ca2287ff4a0a0c/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/8b16ffc25a40b40435ca2287ff4a0a0c/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e988fa06c14ecebffbda398da58e4a6f/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e988fa06c14ecebffbda398da58e4a6f/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e33892d95cd1aeef162f09c290ca35c8/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e33892d95cd1aeef162f09c290ca35c8/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e0f1c9f620b45ad75bf455eb095659db/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e0f1c9f620b45ad75bf455eb095659db/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/6a009174afb0249402fc7d584f43e447/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/6a009174afb0249402fc7d584f43e447/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/0a1affb68c84c89e24d3c71e4a6c5c62/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/0a1affb68c84c89e24d3c71e4a6c5c62/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/42296c90c5d9ea7ac15a743c06eeb19a/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/42296c90c5d9ea7ac15a743c06eeb19a/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/d2969dcde36de5d779213d31d9043362/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/d2969dcde36de5d779213d31d9043362/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/53f3776de6e629a9ed1ef94f7f702bdd/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/53f3776de6e629a9ed1ef94f7f702bdd/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e436ed4888f6bf4d781a6795b04d9028/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e436ed4888f6bf4d781a6795b04d9028/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/alfy/.gradle/caches/9.0.0/transforms/be50e396f2b31db596575b0ba505a28e/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/alfy/.gradle/caches/9.0.0/transforms/be50e396f2b31db596575b0ba505a28e/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/4e2c5f51cc523bb173366544166d69c5/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/4e2c5f51cc523bb173366544166d69c5/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e70522d8cd1b9298013e0b5bf7bcd37a/transformed/ui-text-google-fonts-1.6.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e70522d8cd1b9298013e0b5bf7bcd37a/transformed/ui-text-google-fonts-1.6.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/98711ca43f6d60b9b73618777646d889/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/98711ca43f6d60b9b73618777646d889/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/alfy/.gradle/caches/9.0.0/transforms/d9bd584f0c2fa95af8874f2614b4fc66/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/alfy/.gradle/caches/9.0.0/transforms/d9bd584f0c2fa95af8874f2614b4fc66/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/fbbb2ff51d8c819caf432a60b7303e67/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/fbbb2ff51d8c819caf432a60b7303e67/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/4383254773c62748c8c0d301655b8244/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/4383254773c62748c8c0d301655b8244/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/3c144bf9ed22dd45f64944bcb5083726/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/3c144bf9ed22dd45f64944bcb5083726/transformed/activity-compose-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/031b32aa059d561f406128c6bb2f908b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/031b32aa059d561f406128c6bb2f908b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/e6250e342a3df19f45550dd0cad8d778/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/alfy/.gradle/caches/9.0.0/transforms/e6250e342a3df19f45550dd0cad8d778/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/8c8b98b859b1a5ff9c97f4abe1e5378c/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/8c8b98b859b1a5ff9c97f4abe1e5378c/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/3e9b326f12282b5e9a0d02381782d5cf/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/3e9b326f12282b5e9a0d02381782d5cf/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/348edf8510b6be69339aaa30483820bf/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/348edf8510b6be69339aaa30483820bf/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d77c9370296168aabccc6bdd93a86cf6/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d77c9370296168aabccc6bdd93a86cf6/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b7437a444102f595a6939f00ff15c691/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b7437a444102f595a6939f00ff15c691/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/dbb02361db4be0ec5d088599a529c037/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/dbb02361db4be0ec5d088599a529c037/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/721e22f4ded6ca24e1b2fb13d67867c3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/721e22f4ded6ca24e1b2fb13d67867c3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/1a4cae75300e9e5cc8c341927fecbf45/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/1a4cae75300e9e5cc8c341927fecbf45/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/aadeebf580458e4771fb80c6940c0b80/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/aadeebf580458e4771fb80c6940c0b80/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/ec0ab86f0b32586bc892aed1510a1e42/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/ec0ab86f0b32586bc892aed1510a1e42/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/32dd61b4d95b7674e58fa2948158d41e/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/32dd61b4d95b7674e58fa2948158d41e/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/374b3f34bcfd62e0070e2e463a231ea3/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/374b3f34bcfd62e0070e2e463a231ea3/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/ebb83ce34a294532877bbeaf92eed2c0/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/ebb83ce34a294532877bbeaf92eed2c0/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/8ecd077d1249480ba0bd2a4244d3a9e8/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/8ecd077d1249480ba0bd2a4244d3a9e8/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/8fcdd5175decdab9348ef298328da8f4/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/8fcdd5175decdab9348ef298328da8f4/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/4c6d429868a7046f64e7550226d2d114/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/4c6d429868a7046f64e7550226d2d114/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/b2c7f7c74fd72d90543715df7e4b2e27/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/alfy/.gradle/caches/9.0.0/transforms/b2c7f7c74fd72d90543715df7e4b2e27/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/58b03b1c1275ffa803d0afbd2d6defe5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/58b03b1c1275ffa803d0afbd2d6defe5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/c3f09794a70434b0bf40577f636af9f6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/c3f09794a70434b0bf40577f636af9f6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/687eea16651d9adcea0263fefd7d8c0c/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/687eea16651d9adcea0263fefd7d8c0c/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/66fd257b1d1096374e83e42d090353ac/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/66fd257b1d1096374e83e42d090353ac/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d6f8d21815b3f8615b3ab9128a564fff/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d6f8d21815b3f8615b3ab9128a564fff/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/f9cdf19695a9e4dfcbedd4f2ede29815/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/f9cdf19695a9e4dfcbedd4f2ede29815/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/0aa6037f2f9b5c24742627e9fe86c21d/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/0aa6037f2f9b5c24742627e9fe86c21d/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/72810a91a79169e413eceb9101ec6ad1/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/72810a91a79169e413eceb9101ec6ad1/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/9c7a5adebdd3cc0524291f302df19390/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/9c7a5adebdd3cc0524291f302df19390/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/4dc3b40faa75802e8767e056961c3a74/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/4dc3b40faa75802e8767e056961c3a74/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/9db53579c5f5504f81ce36a51e0b4aea/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/9db53579c5f5504f81ce36a51e0b4aea/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-ktx:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/843c7e489753167f34557e0e2e39b1d3/transformed/room-ktx-2.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/843c7e489753167f34557e0e2e39b1d3/transformed/room-ktx-2.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fa570d4468a84ddeac57c1af7034471/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fa570d4468a84ddeac57c1af7034471/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/194810cbaad473c0f9ef0aae8d6dfeca/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/194810cbaad473c0f9ef0aae8d6dfeca/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/alfy/.gradle/caches/9.0.0/transforms/4d8f711e39d6576893f109113732541e/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/alfy/.gradle/caches/9.0.0/transforms/4d8f711e39d6576893f109113732541e/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/a4b3eaa5933a08eba05942c6d399a3ba/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/a4b3eaa5933a08eba05942c6d399a3ba/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/8b8c1036aae1cbde72a21b819d48011d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/8b8c1036aae1cbde72a21b819d48011d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/ddfd13ee5db7705937f24b3e5b2275eb/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/ddfd13ee5db7705937f24b3e5b2275eb/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/alfy/.gradle/caches/9.0.0/transforms/9c3cd58ab2a481ea02f722237144aace/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/alfy/.gradle/caches/9.0.0/transforms/9c3cd58ab2a481ea02f722237144aace/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/1ba2faf811147de56a992a89118023ef/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/1ba2faf811147de56a992a89118023ef/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/cb745031d84c1dbfa63aca4fe452b5af/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/cb745031d84c1dbfa63aca4fe452b5af/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/alfy/.gradle/caches/9.0.0/transforms/238acb7d36afb6f2107b01d224eeecd2/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/alfy/.gradle/caches/9.0.0/transforms/238acb7d36afb6f2107b01d224eeecd2/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/f388364a633964ded15995924e53de7a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/alfy/.gradle/caches/9.0.0/transforms/f388364a633964ded15995924e53de7a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.topjohnwu.libsu:io:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/0567dcea4fc9a9da38679160b77b898a/transformed/io-5.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.topjohnwu.libsu:io:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/0567dcea4fc9a9da38679160b77b898a/transformed/io-5.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.topjohnwu.libsu:core:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/ef05fc70c73f78afb9abd33e3d3379a8/transformed/core-5.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.topjohnwu.libsu:core:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/ef05fc70c73f78afb9abd33e3d3379a8/transformed/core-5.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.topjohnwu.libsu:nio:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/5a3303968f7d122afa445e527531c651/transformed/nio-5.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.topjohnwu.libsu:nio:5.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/5a3303968f7d122afa445e527531c651/transformed/nio-5.3.0/AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
 		INJECTED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/alfy/proyectos/xusb/app/src/main/AndroidManifest.xml
 activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e1efc6fd1ed05abb955a2a4c61063e8f/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/53f3776de6e629a9ed1ef94f7f702bdd/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e1efc6fd1ed05abb955a2a4c61063e8f/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/53f3776de6e629a9ed1ef94f7f702bdd/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/e1efc6fd1ed05abb955a2a4c61063e8f/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/53f3776de6e629a9ed1ef94f7f702bdd/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
 activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/24e0734917935dd5987e57f2ba864810/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/98711ca43f6d60b9b73618777646d889/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/24e0734917935dd5987e57f2ba864810/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/98711ca43f6d60b9b73618777646d889/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/24e0734917935dd5987e57f2ba864810/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:24:13-63
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.5] /home/alfy/.gradle/caches/9.0.0/transforms/98711ca43f6d60b9b73618777646d889/transformed/ui-test-manifest-1.6.5/AndroidManifest.xml:24:13-63
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:22-65
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:5-79
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:22-76
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:22-76
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/287c78672f3e0f41c991123c233adc9e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/287c78672f3e0f41c991123c233adc9e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b8de448fd79ef424ce10d2356f180f82/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b8de448fd79ef424ce10d2356f180f82/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/68ea46f86132ce876c91831765b7e2f6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/68ea46f86132ce876c91831765b7e2f6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/348edf8510b6be69339aaa30483820bf/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/348edf8510b6be69339aaa30483820bf/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d77c9370296168aabccc6bdd93a86cf6/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d77c9370296168aabccc6bdd93a86cf6/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/1ba2faf811147de56a992a89118023ef/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/alfy/.gradle/caches/9.0.0/transforms/1ba2faf811147de56a992a89118023ef/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:33:13-31
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:33:13-31
 	android:authorities
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:31:13-68
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:31:13-68
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:32:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:30:13-67
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:30:13-67
 meta-data#androidx.work.WorkManagerInitializer
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
 	android:value
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:36:17-49
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:36:17-49
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:35:17-68
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:35:17-68
 service#androidx.work.impl.background.systemalarm.SystemAlarmService
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
 	tools:ignore
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:44:13-60
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:44:13-60
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:45:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:45:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
 service#androidx.work.impl.background.systemjob.SystemJobService
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
 	android:permission
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:52:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:52:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
 service#androidx.work.impl.foreground.SystemForegroundService
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
 	tools:ignore
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:58:13-60
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:58:13-60
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:59:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:59:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
 receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:66:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:66:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:72:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:72:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
 intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:83:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:83:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
 intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
 action#android.intent.action.BATTERY_OKAY
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
 action#android.intent.action.BATTERY_LOW
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:94:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:94:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
 intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
 action#android.intent.action.DEVICE_STORAGE_LOW
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
 action#android.intent.action.DEVICE_STORAGE_OK
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:105:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:105:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:17-79
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:17-79
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:25-76
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:25-76
 receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:115:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:115:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:17-79
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:17-79
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:25-76
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:25-76
 action#android.intent.action.TIME_SET
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
 action#android.intent.action.TIMEZONE_CHANGED
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:127:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:127:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
 intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
 action#androidx.work.impl.background.systemalarm.UpdateProxies
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
 receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
 	android:permission
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:138:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:138:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
 intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
 action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
-ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
+ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/287c78672f3e0f41c991123c233adc9e/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/348edf8510b6be69339aaa30483820bf/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/287c78672f3e0f41c991123c233adc9e/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/348edf8510b6be69339aaa30483820bf/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/287c78672f3e0f41c991123c233adc9e/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/alfy/.gradle/caches/9.0.0/transforms/348edf8510b6be69339aaa30483820bf/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b8de448fd79ef424ce10d2356f180f82/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d77c9370296168aabccc6bdd93a86cf6/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b8de448fd79ef424ce10d2356f180f82/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d77c9370296168aabccc6bdd93a86cf6/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/b8de448fd79ef424ce10d2356f180f82/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/alfy/.gradle/caches/9.0.0/transforms/d77c9370296168aabccc6bdd93a86cf6/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
 permission#com.xusb.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
 uses-permission#com.xusb.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/776522b2736c27e331e2d6f9367517ad/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.0] /home/alfy/.gradle/caches/9.0.0/transforms/83cac295df9073e3339c7149178981fc/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
 service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/cad4f30f6e8fdd8d50fc2c4fb30e36fd/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+ADDED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fa570d4468a84ddeac57c1af7034471/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
 	android:exported
-		ADDED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/cad4f30f6e8fdd8d50fc2c4fb30e36fd/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fa570d4468a84ddeac57c1af7034471/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
 	tools:ignore
-		ADDED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/cad4f30f6e8fdd8d50fc2c4fb30e36fd/transformed/room-runtime-2.5.0/AndroidManifest.xml:28:13-60
+		ADDED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fa570d4468a84ddeac57c1af7034471/transformed/room-runtime-2.5.0/AndroidManifest.xml:28:13-60
 	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/cad4f30f6e8fdd8d50fc2c4fb30e36fd/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+		ADDED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fa570d4468a84ddeac57c1af7034471/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
 	android:name
-		ADDED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/cad4f30f6e8fdd8d50fc2c4fb30e36fd/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+		ADDED from [androidx.room:room-runtime:2.5.0] /home/alfy/.gradle/caches/9.0.0/transforms/0fa570d4468a84ddeac57c1af7034471/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/d9982d0de02b48901235ab94ac13b396/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/alfy/.gradle/caches/9.0.0/transforms/1a43b89f1c837036ca1011b4c158b091/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

@@ -4,7 +4,7 @@
             "outputFile": "com.xusb.app-mergeDebugResources-67:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/alfy/.gradle/caches/9.0.0/transforms/ab2b524efd882dbb14fb3c054c81719a/transformed/work-runtime-2.9.0/res/values-v23/values-v23.xml",
+                    "source": "/home/alfy/.gradle/caches/9.0.0/transforms/5cfd7e3a0ed6b60745f368b1320247d9/transformed/work-runtime-2.9.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/alfy/.gradle/caches/9.0.0/transforms/2362db6e86711a3e6b9557c9482f3226/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "source": "/home/alfy/.gradle/caches/9.0.0/transforms/9f95be1d2c74dca87f594fae30ecdef4/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
