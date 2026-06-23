@@ -21,7 +21,8 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
 
     private val usbManager = XUsbManager(app)
 
-    val connectedDrive: StateFlow<UsbDriveInfo> = usbManager.connectedDrive
+    val connectedDrive: StateFlow<UsbDriveInfo> = usbManager.selectedDrive
+    val allDrives: StateFlow<List<UsbDriveInfo>> = usbManager.connectedDrives
 
     private val _theme = MutableStateFlow(AppTheme.DARK_PURPLE)
     val theme: StateFlow<AppTheme> = _theme
@@ -57,6 +58,7 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
     }
 
     fun ejectUsb() = usbManager.eject()
+    fun selectDrive(drive: com.xusb.usb.UsbDriveInfo) = usbManager.selectDrive(drive)
 
     override fun onCleared() {
         super.onCleared()

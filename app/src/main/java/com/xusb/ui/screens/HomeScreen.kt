@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
@@ -14,6 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.xusb.ui.components.*
@@ -24,6 +26,7 @@ import com.xusb.usb.*
 @Composable
 fun HomeScreen(vm: MainViewModel, navController: NavController) {
     val drive    by vm.connectedDrive.collectAsState()
+    val allDrives by vm.allDrives.collectAsState()
     val isEs     by vm.lang.collectAsState()
     val isSp = isEs == 1
 
@@ -31,9 +34,15 @@ fun HomeScreen(vm: MainViewModel, navController: NavController) {
         contentPadding = PaddingValues(bottom = 32.dp),
         verticalArrangement = Arrangement.spacedBy(0.dp)
     ) {
-        // Device card
+        // Device selector
         item {
-            UsbDeviceCard(drive = drive, isSpanish = isSp, onEject = { vm.ejectUsb() })
+            UsbSelectorCard(
+                selected   = drive,
+                allDrives  = allDrives,
+                isSpanish  = isSp,
+                onSelect   = { vm.selectDrive(it) },
+                onEject    = { vm.ejectUsb() }
+            )
         }
 
         // Section header
