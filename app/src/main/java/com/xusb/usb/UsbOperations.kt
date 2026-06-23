@@ -35,15 +35,31 @@ enum class Filesystem(val cmd: String, val label: String) {
     F2FS("mkfs.f2fs", "F2FS"),
 }
 
-fun formatUsb(device: String, fs: Filesystem, label: String = "X-USB"): Flow<OperationProgress> = flow {
+fun formatUsb(device: String, fs: Filesystem, label: String = "X-USB", clusterSize: Int = 0): Flow<OperationProgress> = flow {
     emit(OperationProgress(isRunning = true, label = "Formatting as ${fs.label}…", progressPct = 0.1f))
-    val result = Shell.cmd("${fs.cmd} -L \"$label\" $device").exec()
+    val clusterFlag = buildClusterFlag(fs, clusterSize)
+    // exFAT uses -n for label (mkexfatfs), all others use -L
+    val cmd = when (fs) {
+        Filesystem.EXFAT -> "mkexfatfs -n \"$label\"$clusterFlag $device"
+        else             -> "${fs.cmd} -L \"$label\"$clusterFlag $device"
+    }
+    val result = Shell.cmd(cmd).exec()
     if (result.isSuccess) {
         emit(OperationProgress(isRunning = false, label = "Format complete ✓", progressPct = 1f, isComplete = true))
     } else {
         emit(OperationProgress(isRunning = false, error = result.out.joinToString("\n")))
     }
 }.flowOn(Dispatchers.IO)
+
+private fun buildClusterFlag(fs: Filesystem, clusterBytes: Int): String {
+    if (clusterBytes == 0) return ""
+    return when (fs) {
+        Filesystem.FAT16, Filesystem.FAT32                 -> " -s ${clusterBytes / 512}"
+        Filesystem.EXFAT, Filesystem.NTFS                  -> " -c $clusterBytes"
+        Filesystem.EXT2, Filesystem.EXT3, Filesystem.EXT4 -> " -b $clusterBytes"
+        Filesystem.F2FS                                    -> ""
+    }
+}
 
 // ── Wipe USB ─────────────────────────────────────────────────────────────
 fun wipeUsb(device: String): Flow<OperationProgress> = flow {
