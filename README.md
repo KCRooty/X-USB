@@ -1,8 +1,8 @@
 # 🚀 X-USB: The Ultimate Multiplatform USB Suite
 **Made by Alfy181X**
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Alfy181R/X-USB)
-[![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%10%20Linux-green.svg)](https://github.com/Alfy181R/X-USB)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/KCRooty/X-USB)
+[![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%10%20Linux-green.svg)](https://github.com/KCRooty/X-USB)
 
 ¡Gestiona tus dispositivos USB como un profesional! X-USB es una suite completa de herramientas para manejar pendrives, discos externos e imágenes de sistema, diseñada con una estética **Cyberpunk** única y optimizada para alto rendimiento.
 
@@ -44,7 +44,7 @@ X-USB incluye 3 temas visuales inspirados en interfaces futuristas:
 ## 🚀 Instalación / Installation
 
 ### Android 📱
-1.  Descarga el **APK** desde la sección de [Releases](https://github.com/Alfy181R/X-USB/releases).
+1.  Descarga el **APK** desde la sección de [Releases](https://github.com/KCRooty/X-USB/releases).
 2.  Requiere acceso **Root** para funciones de bajo nivel (formato, particiones).
 
 ### PC (Windows / Linux) 💻
