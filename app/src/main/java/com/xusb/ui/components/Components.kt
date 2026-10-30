@@ -150,6 +150,124 @@ fun UsbDeviceCard(drive: UsbDriveInfo, isSpanish: Boolean, onEject: () -> Unit, 
     }
 }
 
+// ── USB Selector Card (multi-device) ─────────────────────────────────────
+@Composable
+fun UsbSelectorCard(
+    selected: UsbDriveInfo,
+    allDrives: List<UsbDriveInfo>,
+    isSpanish: Boolean,
+    onSelect: (UsbDriveInfo) -> Unit,
+    onEject: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    var expanded by remember { mutableStateOf(false) }
+
+    Surface(
+        shape = RoundedCornerShape(14.dp),
+        color = MaterialTheme.colorScheme.surfaceVariant,
+        border = BorderStroke(1.dp, if (selected.isConnected) MaterialTheme.colorScheme.primary.copy(0.4f) else MaterialTheme.colorScheme.outline),
+        modifier = modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp)
+    ) {
+        Column {
+            Row(
+                Modifier.padding(14.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                    modifier = Modifier.weight(1f)
+                ) {
+                    Box(
+                        Modifier.size(44.dp).clip(RoundedCornerShape(10.dp))
+                            .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Icon(
+                            if (selected.isConnected) Icons.Default.Usb else Icons.Default.UsbOff,
+                            null,
+                            tint = if (selected.isConnected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface.copy(0.4f),
+                            modifier = Modifier.size(24.dp)
+                        )
+                    }
+                    Column(Modifier.weight(1f)) {
+                        Text(
+                            text = if (selected.isConnected) selected.name else if (isSpanish) "Sin dispositivo" else "No Device",
+                            style = MaterialTheme.typography.bodyLarge,
+                            fontWeight = FontWeight.SemiBold,
+                            color = MaterialTheme.colorScheme.onSurface
+                        )
+                        if (selected.isConnected) {
+                            Text(
+                                "${selected.sizeDisplay} · ${selected.usbVersion} · ${selected.path}",
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.primary
+                            )
+                        } else {
+                            Text(
+                                if (isSpanish) "Conecta un USB para empezar" else "Connect a USB to get started",
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurface.copy(0.4f)
+                            )
+                        }
+                    }
+                }
+                Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+                    if (allDrives.size > 1) {
+                        IconButton(onClick = { expanded = true }, modifier = Modifier.size(32.dp)) {
+                            Icon(Icons.Default.ExpandMore, null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(20.dp))
+                        }
+                    }
+                    if (selected.isConnected) {
+                        OutlinedButton(
+                            onClick = onEject,
+                            shape = RoundedCornerShape(8.dp),
+                            border = BorderStroke(1.dp, MaterialTheme.colorScheme.secondary.copy(0.5f)),
+                            contentPadding = PaddingValues(horizontal = 12.dp, vertical = 6.dp)
+                        ) {
+                            Text(
+                                if (isSpanish) "EXPULSAR" else "EJECT",
+                                style = MaterialTheme.typography.labelSmall,
+                                color = MaterialTheme.colorScheme.secondary
+                            )
+                        }
+                    }
+                }
+            }
+
+            // Dropdown con todos los dispositivos (visible si hay >1)
+            DropdownMenu(
+                expanded = expanded,
+                onDismissRequest = { expanded = false }
+            ) {
+                allDrives.forEach { drive ->
+                    DropdownMenuItem(
+                        text = {
+                            Column {
+                                Text(drive.name, style = MaterialTheme.typography.bodyMedium)
+                                Text("${drive.sizeDisplay} · ${drive.usbVersion} · ${drive.path}",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurface.copy(0.6f))
+                            }
+                        },
+                        leadingIcon = {
+                            Icon(
+                                Icons.Default.Usb, null,
+                                tint = if (drive == selected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface.copy(0.5f)
+                            )
+                        },
+                        trailingIcon = {
+                            if (drive == selected) Icon(Icons.Default.Check, null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(16.dp))
+                        },
+                        onClick = { onSelect(drive); expanded = false }
+                    )
+                }
+            }
+        }
+    }
+}
+
 // ── Feature Menu Item ─────────────────────────────────────────────────────
 @Composable
 fun FeatureMenuItem(

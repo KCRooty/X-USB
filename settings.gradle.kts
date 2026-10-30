@@ -15,5 +15,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "X-USB"
 include(":app")
-include(":common")
-include(":desktop")

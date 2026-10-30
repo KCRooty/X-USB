@@ -17,27 +17,30 @@ class XUsbManager(private val context: Context) {
 
     private val usbManager = context.getSystemService(Context.USB_SERVICE) as UsbManager
 
-    private val _connectedDrive = MutableStateFlow(UsbDriveInfo.NONE)
-    val connectedDrive: StateFlow<UsbDriveInfo> = _connectedDrive
+    private val _connectedDrives = MutableStateFlow<List<UsbDriveInfo>>(emptyList())
+    val connectedDrives: StateFlow<List<UsbDriveInfo>> = _connectedDrives
+
+    private val _selectedDrive = MutableStateFlow(UsbDriveInfo.NONE)
+    val selectedDrive: StateFlow<UsbDriveInfo> = _selectedDrive
+
+    // Mapeo device.deviceId → UsbDriveInfo para updates rápidos
+    private val driveMap = mutableMapOf<Int, UsbDriveInfo>()
 
     private val usbReceiver = object : BroadcastReceiver() {
         override fun onReceive(ctx: Context, intent: Intent) {
             when (intent.action) {
                 UsbManager.ACTION_USB_DEVICE_ATTACHED -> {
-                    val device: UsbDevice? = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU)
-                        intent.getParcelableExtra(UsbManager.EXTRA_DEVICE, UsbDevice::class.java)
-                    else @Suppress("DEPRECATION") intent.getParcelableExtra(UsbManager.EXTRA_DEVICE)
-                    device?.let { requestPermission(it) }
+                    getDevice(intent)?.let { requestPermission(it) }
                 }
                 UsbManager.ACTION_USB_DEVICE_DETACHED -> {
-                    _connectedDrive.value = UsbDriveInfo.NONE
+                    val device = getDevice(intent) ?: return
+                    driveMap.remove(device.deviceId)
+                    publishDrives()
                 }
                 ACTION_USB_PERMISSION -> {
-                    val device: UsbDevice? = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU)
-                        intent.getParcelableExtra(UsbManager.EXTRA_DEVICE, UsbDevice::class.java)
-                    else @Suppress("DEPRECATION") intent.getParcelableExtra(UsbManager.EXTRA_DEVICE)
+                    val device = getDevice(intent) ?: return
                     val granted = intent.getBooleanExtra(UsbManager.EXTRA_PERMISSION_GRANTED, false)
-                    if (granted && device != null) updateDriveInfo(device)
+                    if (granted) updateDriveInfo(device)
                 }
             }
         }
@@ -54,13 +57,26 @@ class XUsbManager(private val context: Context) {
         else
             context.registerReceiver(usbReceiver, filter)
 
-        // Check already-connected devices
-        usbManager.deviceList.values.firstOrNull()?.let { requestPermission(it) }
+        // Enumerar dispositivos ya conectados
+        usbManager.deviceList.values.forEach { requestPermission(it) }
     }
 
     fun unregister() {
         try { context.unregisterReceiver(usbReceiver) } catch (_: Exception) {}
     }
+
+    fun selectDrive(drive: UsbDriveInfo) {
+        _selectedDrive.value = drive
+    }
+
+    fun eject() {
+        _selectedDrive.value = UsbDriveInfo.NONE
+    }
+
+    private fun getDevice(intent: Intent): UsbDevice? =
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU)
+            intent.getParcelableExtra(UsbManager.EXTRA_DEVICE, UsbDevice::class.java)
+        else @Suppress("DEPRECATION") intent.getParcelableExtra(UsbManager.EXTRA_DEVICE)
 
     private fun requestPermission(device: UsbDevice) {
         if (usbManager.hasPermission(device)) {
@@ -74,26 +90,58 @@ class XUsbManager(private val context: Context) {
     }
 
     private fun updateDriveInfo(device: UsbDevice) {
-        // Try to get actual size via shell (requires root)
-        val sizeBytes = try {
-            val result = com.topjohnwu.superuser.Shell.cmd("blockdev --getsize64 /dev/sdb").exec()
-            if (result.isSuccess) result.out[0].toLongOrNull() ?: (32L * 1_073_741_824L)
-            else 32L * 1_073_741_824L
-        } catch (e: Exception) {
-            32L * 1_073_741_824L // 32 GB placeholder
-        }
+        val blockPath = resolveBlockPath(device)
+        val sizeBytes = if (blockPath.isNotEmpty()) queryBlockSize(blockPath) else 0L
 
-        _connectedDrive.value = UsbDriveInfo(
-            device       = device,
-            name         = device.productName ?: "USB Device",
-            path         = "/dev/sdb",
-            sizeBytes    = sizeBytes,
-            isConnected  = true,
-            usbVersion   = if (device.version?.startsWith("3") == true) "USB 3.0" else "USB 2.0"
+        val info = UsbDriveInfo(
+            device      = device,
+            name        = device.productName ?: device.manufacturerName ?: "USB Device",
+            path        = blockPath,
+            sizeBytes   = sizeBytes,
+            isConnected = true,
+            usbVersion  = if (device.version?.startsWith("3") == true) "USB 3.0" else "USB 2.0"
         )
+        driveMap[device.deviceId] = info
+        publishDrives()
     }
 
-    fun eject() {
-        _connectedDrive.value = UsbDriveInfo.NONE
+    // Intenta descubrir el nodo de bloque real. Requiere root.
+    private fun resolveBlockPath(device: UsbDevice): String {
+        return try {
+            // Busca nodos USB en lsblk
+            val result = com.topjohnwu.superuser.Shell
+                .cmd("lsblk -d -n -o NAME,TRAN 2>/dev/null | grep usb | head -5")
+                .exec()
+            if (result.isSuccess && result.out.isNotEmpty()) {
+                // Puede haber varios; heurística: el más reciente (último)
+                // Por ahora coge el primero que no sea ya conocido
+                val known = driveMap.values.map { it.path.removePrefix("/dev/") }.toSet()
+                val candidate = result.out
+                    .map { it.trim().split("\\s+".toRegex()).firstOrNull() ?: "" }
+                    .filter { it.isNotEmpty() && "/dev/$it" !in known.map { k -> "/dev/$k" } }
+                    .firstOrNull()
+                if (candidate != null) "/dev/$candidate" else "/dev/sdb"
+            } else "/dev/sdb"
+        } catch (_: Exception) { "/dev/sdb" }
+    }
+
+    private fun queryBlockSize(path: String): Long {
+        return try {
+            val result = com.topjohnwu.superuser.Shell
+                .cmd("blockdev --getsize64 $path 2>/dev/null")
+                .exec()
+            if (result.isSuccess && result.out.isNotEmpty())
+                result.out[0].trim().toLongOrNull() ?: 0L
+            else 0L
+        } catch (_: Exception) { 0L }
+    }
+
+    private fun publishDrives() {
+        val list = driveMap.values.toList()
+        _connectedDrives.value = list
+        // Si el seleccionado ya no está en la lista, auto-seleccionar el primero
+        if (_selectedDrive.value == UsbDriveInfo.NONE || !list.any { it.path == _selectedDrive.value.path }) {
+            _selectedDrive.value = list.firstOrNull() ?: UsbDriveInfo.NONE
+        }
     }
 }

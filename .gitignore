@@ -1,0 +1,20 @@
+# Gradle build directories (NOT builds/ which is releases)
+.gradle/
+build/
+**/build/
+
+# Android local config (contains SDK path — machine-specific)
+local.properties
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Kotlin compiler cache
+.kotlin/
+
+# OS
+.DS_Store
+Thumbs.db

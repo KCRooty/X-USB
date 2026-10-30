@@ -134,6 +134,37 @@ val ALL_FEATURES = listOf(
     ),
 )
 
+// ── Cluster Size ─────────────────────────────────────────────────────────
+enum class ClusterSize(val bytes: Int, val display: String) {
+    DEFAULT(0,      "Default"),
+    B_512(512,      "512 B"),
+    K_1(1024,       "1 KB"),
+    K_2(2048,       "2 KB"),
+    K_4(4096,       "4 KB"),
+    K_8(8192,       "8 KB"),
+    K_16(16384,     "16 KB"),
+    K_32(32768,     "32 KB"),
+    K_64(65536,     "64 KB"),
+    K_128(131072,   "128 KB"),
+}
+
+fun Filesystem.availableClusterSizes(): List<ClusterSize> = when (this) {
+    Filesystem.FAT16 -> listOf(ClusterSize.DEFAULT, ClusterSize.B_512, ClusterSize.K_1, ClusterSize.K_2, ClusterSize.K_4, ClusterSize.K_8, ClusterSize.K_16, ClusterSize.K_32)
+    Filesystem.FAT32 -> listOf(ClusterSize.DEFAULT, ClusterSize.B_512, ClusterSize.K_1, ClusterSize.K_2, ClusterSize.K_4, ClusterSize.K_8, ClusterSize.K_16, ClusterSize.K_32, ClusterSize.K_64)
+    Filesystem.EXFAT -> listOf(ClusterSize.DEFAULT, ClusterSize.K_4, ClusterSize.K_8, ClusterSize.K_16, ClusterSize.K_32, ClusterSize.K_64, ClusterSize.K_128)
+    Filesystem.NTFS  -> listOf(ClusterSize.DEFAULT, ClusterSize.B_512, ClusterSize.K_1, ClusterSize.K_2, ClusterSize.K_4, ClusterSize.K_8, ClusterSize.K_16, ClusterSize.K_32, ClusterSize.K_64)
+    Filesystem.EXT2, Filesystem.EXT3, Filesystem.EXT4 -> listOf(ClusterSize.DEFAULT, ClusterSize.K_1, ClusterSize.K_2, ClusterSize.K_4)
+    Filesystem.F2FS  -> listOf(ClusterSize.DEFAULT)
+}
+
+fun Filesystem.maxLabelLength(): Int = when (this) {
+    Filesystem.FAT16, Filesystem.FAT32 -> 11
+    Filesystem.EXFAT -> 15
+    Filesystem.NTFS  -> 32
+    Filesystem.EXT2, Filesystem.EXT3, Filesystem.EXT4 -> 16
+    Filesystem.F2FS  -> 16
+}
+
 // ── Bundled / Downloadable ISOs ───────────────────────────────────────────
 data class IsoEntry(
     val id: String,
