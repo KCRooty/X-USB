@@ -8,6 +8,16 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/KCRooty/X-USB)
 [![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%10%20Linux-green.svg)](https://github.com/KCRooty/X-USB)
 
+## Capturas
+
+![Interfaz de X-USB (versión PC)](docs/screenshots/01-interfaz.png)
+
+*Versión de escritorio (Windows/Linux, Compose Multiplatform): Ventoy X, ISO Burner, MultiOS USB, Descargador de ISOs, formateo y gestión de particiones.*
+
+![Descargador de ISOs](docs/screenshots/02-descargador-isos.png)
+
+*Catálogo integrado de distribuciones listas para descargar directamente al USB.*
+
 ¡Gestiona tus dispositivos USB como un profesional! X-USB es una suite completa de herramientas para manejar pendrives, discos externos e imágenes de sistema, diseñada con una estética **Cyberpunk** única y optimizada para alto rendimiento.
 
 Manage your USB devices like a pro! X-USB is a complete suite of tools to handle flash drives, external disks, and system images, designed with a unique **Cyberpunk** aesthetic and optimized for high performance.
@@ -57,4 +67,4 @@ X-USB incluye 3 temas visuales inspirados en interfaces futuristas:
 
 ---
 
-**Made with ❤️ by Alfy181X**
+**Made with ❤️ by KCRooty (Core) · Static Forge**
