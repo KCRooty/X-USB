@@ -1,5 +1,9 @@
+<img src="assets/logo.png" alt="X-USB" width="96" height="96">
+
 # 🚀 X-USB: The Ultimate Multiplatform USB Suite
-**Made by Alfy181X**
+**Hecho por KCRooty (Core) · [Static Forge](https://staticforge.me)**
+
+**Página del proyecto:** [staticforge.me](https://staticforge.me/#proyectos)
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/KCRooty/X-USB)
 [![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%10%20Linux-green.svg)](https://github.com/KCRooty/X-USB)
