@@ -172,7 +172,7 @@ open class ShellBackend(private val sh: ShellExec, override val platformName: St
         }
         val r = res ?: ShellResult(1, "", "dd no devolvió resultado")
         // Con /dev/zero el final normal es "No space left on device".
-        val normalEnd = input == "/dev/zero" && last > 0
+        val normalEnd = input == "/dev/zero" && (last > 0 || (r.out + r.err).contains("No space left", ignoreCase = true))
         if (!r.ok && !normalEnd) {
             // toybox/busybox antiguos no admiten status=progress: reintento sin él.
             if (last == 0L && (r.out + r.err).contains("status", ignoreCase = true)) {
