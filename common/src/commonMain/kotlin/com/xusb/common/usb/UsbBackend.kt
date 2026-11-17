@@ -19,6 +19,9 @@ interface UsbBackend {
 
     fun listDrives(): List<UsbDriveInfo>
 
+    /** Sistemas de archivos que esta plataforma sabe crear; la interfaz no ofrece los demás. */
+    fun supportedFilesystems(): List<Filesystem> = Filesystem.entries
+
     fun format(device: String, fs: Filesystem, label: String, clusterSize: Int): Flow<OperationProgress>
     fun wipe(device: String): Flow<OperationProgress>
     fun rawWrite(imagePath: String, device: String): Flow<OperationProgress>
@@ -48,6 +51,17 @@ interface UsbBackend {
 object UsbPlatform {
     @Volatile
     var backend: UsbBackend = NoBackend
+
+    /** Carpeta donde se guardan descargas y copias; la fija cada aplicación al arrancar. */
+    @Volatile
+    var workDir: String = ""
+
+    /** Selector de archivos del sistema (solo escritorio). null = la plataforma no tiene: se escribe la ruta. */
+    @Volatile
+    var openFile: ((title: String) -> String?)? = null
+
+    @Volatile
+    var saveFile: ((title: String, suggestedName: String) -> String?)? = null
 }
 
 /** Marcador: se usa mientras ninguna plataforma haya registrado el suyo. Todo falla de forma explícita. */

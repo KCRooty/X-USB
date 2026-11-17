@@ -16,7 +16,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         if (UsbPlatform.backend !is AndroidBackend) UsbPlatform.backend = AndroidBackend()
+        UsbPlatform.workDir = (getExternalFilesDir(null) ?: filesDir).absolutePath
         enableEdgeToEdge()
-        setContent { App(vm) }
+        setContent { App(vm, usbEvents = vm.usbEvents) }
     }
 }

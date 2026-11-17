@@ -31,15 +31,16 @@ private val LANG_KEY = intPreferencesKey("lang") // 0=en, 1=es
  */
 class AndroidViewModel2(app: Application) : AndroidViewModel(app), IMainViewModel {
 
-    override val connectedDrive = MutableStateFlow(UsbDriveInfo.NONE)
-    private val _theme = MutableStateFlow(AppTheme.DARK_PURPLE)
+    /** Se incrementa con cada conexión/desconexión; la UI lo observa para volver a listar. */
+    val usbEvents = MutableStateFlow(0)
+    private val _theme = MutableStateFlow(AppTheme.FORGE)
     override val theme: StateFlow<AppTheme> = _theme
     private val _lang = MutableStateFlow(1)
     override val lang: StateFlow<Int> = _lang
     override val isSpanish: Boolean get() = _lang.value == 1
 
     private val receiver = object : BroadcastReceiver() {
-        override fun onReceive(ctx: Context, intent: Intent) { refreshDrives() }
+        override fun onReceive(ctx: Context, intent: Intent) { usbEvents.value += 1 }
     }
 
     init {
@@ -54,18 +55,9 @@ class AndroidViewModel2(app: Application) : AndroidViewModel(app), IMainViewMode
 
         viewModelScope.launch {
             app.dataStore.data.collect { prefs ->
-                _theme.value = AppTheme.entries.getOrElse(prefs[THEME_KEY] ?: 0) { AppTheme.DARK_PURPLE }
+                _theme.value = AppTheme.entries.getOrElse(prefs[THEME_KEY] ?: 0) { AppTheme.FORGE }
                 _lang.value = prefs[LANG_KEY] ?: 1
             }
-        }
-        refreshDrives()
-    }
-
-    fun refreshDrives() {
-        viewModelScope.launch(Dispatchers.IO) {
-            // El sistema tarda un instante en crear el nodo de bloque tras conectar.
-            kotlinx.coroutines.delay(1500)
-            connectedDrive.value = UsbPlatform.backend.listDrives().firstOrNull() ?: UsbDriveInfo.NONE
         }
     }
 
@@ -78,15 +70,6 @@ class AndroidViewModel2(app: Application) : AndroidViewModel(app), IMainViewMode
         val next = if (_lang.value == 0) 1 else 0
         _lang.value = next
         viewModelScope.launch { getApplication<Application>().dataStore.edit { it[LANG_KEY] = next } }
-    }
-
-    override fun ejectUsb() {
-        val path = connectedDrive.value.path
-        if (path.isEmpty()) return
-        viewModelScope.launch(Dispatchers.IO) {
-            UsbPlatform.backend.eject(path)
-            refreshDrives()
-        }
     }
 
     override fun onCleared() {

@@ -29,6 +29,8 @@ class WindowsBackend : UsbBackend {
 
     private fun physical(n: Int) = "\\\\.\\PhysicalDrive$n"
 
+    override fun supportedFilesystems() = listOf(Filesystem.FAT32, Filesystem.EXFAT, Filesystem.NTFS, Filesystem.FAT16)
+
     override fun listDrives(): List<UsbDriveInfo> {
         val r = ps("Get-Disk | Where-Object { \$_.BusType -eq 'USB' -and -not \$_.IsBoot -and -not \$_.IsSystem } | ForEach-Object { \"\$(\$_.Number)|\$(\$_.Size)|\$(\$_.FriendlyName)\" }", 60)
         if (!r.ok) return emptyList()
