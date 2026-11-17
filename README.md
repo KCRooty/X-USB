@@ -42,4 +42,4 @@ Proyecto en desarrollo. Cada operación que escribe en un disco pide confirmaci�
 
 ## Licencia
 
-Código abierto. Hecho por KCRooty en Static Forge.
+[GPL-3.0](LICENSE). Hecho por KCRooty en Static Forge.
