@@ -10,6 +10,17 @@ Versión multiplataforma: Android, Linux y Windows comparten interfaz y lógica.
 - Windows: listado, formato, borrado rápido, escritura/copia en bruto y particiones vía PowerShell.
 - Comprobación de seguridad: solo se actúa sobre discos USB que no sean del sistema ni de arranque.
 
+### Interfaz nueva (identidad «Forja»)
+- Rediseño completo de la interfaz común: grafito cálido con un único acento brasa, tema claro «Papel», datos técnicos en monoespaciada.
+- Escritorio: barra lateral con selector de unidad y herramientas agrupadas; móvil: inicio con lista. Se adapta al ancho.
+- Selector de unidad real (varias unidades, actualizar, causa y siguiente paso si no hay ninguna o faltan permisos).
+- Las operaciones destructivas piden escribir el identificador de la unidad (por ejemplo `sdb`) tras un resumen de lo que se pierde.
+- Progreso real de cada operación; los errores se muestran tal cual los da el sistema.
+- Selector de archivos en escritorio para imágenes y copias; la ISO descargada queda propuesta al grabar.
+- Las herramientas sin implementar (Ventoy, multi-arranque, PS2, archivos) aparecen como «planificado» y no hacen nada.
+- El catálogo de ISO solo conserva enlaces directos comprobados el 2026-11-17 (se retiraron los que daban 404 o no eran una ISO).
+- Se corrigió: textos ilegibles sobre fondo oscuro, botones sin acción, etiqueta de formato fija y uso incorrecto de la ruta de partición.
+
 ### Cambiado
 - Android usa la misma interfaz que el escritorio (se retiró la interfaz duplicada).
 - El escritorio de la 1.0.0 era una maqueta: ya no hay operaciones simuladas.
