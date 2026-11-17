@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">X-USB</string>
+    <string name="no_device">No Device Connected</string>
+    <string name="eject">Eject</string>
+    <string name="tools">Tools</string>
+    <string name="theme">Theme</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="cancel">Cancel</string>
+    <string name="warning_erase">ALL data on the USB will be erased.</string>
+    <string name="requires_root">Requires root access</string>
+    <string name="mount">Mount</string>
+    <string name="unmount">Unmount</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="partitions">Partitions</string>
+    <string name="new_partition">New Partition</string>
+    <string name="format">Format</string>
+    <string name="wipe">Wipe</string>
+    <string name="download">Download</string>
+</resources>
