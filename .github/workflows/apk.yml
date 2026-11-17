@@ -1,5 +1,5 @@
-# Compila la APK en cada push y, al crear una etiqueta vX.Y.Z, la adjunta a la release.
-name: APK
+# Compila Android y escritorio en cada push; al crear una etiqueta vX.Y.Z adjunta los artefactos a la release.
+name: Build
 
 on:
   push:
@@ -12,17 +12,16 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  android:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: "17"
+          java-version: "21"
       - uses: gradle/actions/setup-gradle@v4
-      - name: Compilar
-        run: ./gradlew --no-daemon assembleDebug
+      - run: ./gradlew --no-daemon :app:assembleDebug
       - name: Renombrar
         run: |
           v="${GITHUB_REF_NAME#v}"
@@ -30,11 +29,61 @@ jobs:
           cp app/build/outputs/apk/debug/app-debug.apk "X-USB-${v}.apk"
       - uses: actions/upload-artifact@v4
         with:
-          name: X-USB-apk
+          name: X-USB-android
           path: X-USB-*.apk
-      - name: Release
-        if: startsWith(github.ref, 'refs/tags/v')
-        uses: softprops/action-gh-release@v2
+
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
         with:
-          files: X-USB-*.apk
-          generate_release_notes: true
+          distribution: temurin
+          java-version: "21"
+      - uses: gradle/actions/setup-gradle@v4
+      - run: ./gradlew --no-daemon :desktop:packageDeb
+      - name: Prueba de integración (imágenes loop, nunca discos reales)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq parted gdisk dosfstools exfatprogs ntfs-3g
+          ./gradlew --no-daemon :desktop:copyTestRuntime
+          rt="$PWD/desktop/build/testRuntime"
+          W=$(mktemp -d)
+          truncate -s 256M "$W/disk.img"; truncate -s 64M "$W/decoy.img"
+          DEV=$(sudo losetup -fP --show "$W/disk.img"); DECOY=$(sudo losetup -fP --show "$W/decoy.img")
+          sudo "$(command -v java)" -Dxusb.testDevices="$DEV" -cp "$rt:$rt/*" com.xusb.desktop.LinuxSelfTestKt "$DEV" "$W/out" "$DECOY"
+          sudo losetup -d "$DEV" "$DECOY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: X-USB-linux
+          path: desktop/build/compose/binaries/main/deb/*.deb
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - uses: gradle/actions/setup-gradle@v4
+      - run: ./gradlew --no-daemon :desktop:packageUberJarForCurrentOS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: X-USB-windows
+          path: desktop/build/compose/jars/*.jar
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [android, linux, windows]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*
+          body_path: CHANGELOG.md
