@@ -26,22 +26,22 @@ import java.nio.ByteBuffer
 class UsbBlockDevice private constructor(
     private val comm: UsbCommunication,
     private val driver: BlockDeviceDriver,
-) : Closeable {
+) : Closeable, BlockIo {
 
-    val blockSize: Int get() = driver.blockSize
-    val blocks: Long get() = driver.blocks
+    override val blockSize: Int get() = driver.blockSize
+    override val blocks: Long get() = driver.blocks
     val sizeBytes: Long get() = blocks * blockSize
 
     /** Lee `buffer.remaining()` bytes desde el bloque [lba]. Debe ser múltiplo de [blockSize]. */
     @Throws(IOException::class)
-    fun read(lba: Long, buffer: ByteBuffer) {
+    override fun read(lba: Long, buffer: ByteBuffer) {
         require(buffer.remaining() % blockSize == 0) { "Lectura no alineada a $blockSize bytes" }
         driver.read(lba, buffer)
     }
 
     /** Escribe `buffer.remaining()` bytes a partir del bloque [lba]. Debe ser múltiplo de [blockSize]. */
     @Throws(IOException::class)
-    fun write(lba: Long, buffer: ByteBuffer) {
+    override fun write(lba: Long, buffer: ByteBuffer) {
         require(buffer.remaining() % blockSize == 0) { "Escritura no alineada a $blockSize bytes" }
         require(lba >= 0 && lba + buffer.remaining() / blockSize <= blocks) { "Escritura fuera del dispositivo" }
         driver.write(lba, buffer)

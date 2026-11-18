@@ -2,16 +2,25 @@ package com.xusb.common
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -59,6 +68,20 @@ enum class Tool(val group: Int, val planned: Boolean = false) {
         MULTIBOOT -> if (es) "Arranque UEFI con varios sistemas" else "UEFI boot with several systems"
         PS2 -> if (es) "Preparar USB para juegos de PS2" else "Prepare a USB for PS2 games"
         FILES -> if (es) "Explorar archivos de la unidad" else "Browse the drive's files"
+    }
+
+    val icon: ImageVector get() = when (this) {
+        WRITE -> Icons.Outlined.Bolt
+        DOWNLOAD -> Icons.Outlined.Download
+        FORMAT -> Icons.Outlined.Storage
+        WIPE -> Icons.Outlined.DeleteSweep
+        PARTITIONS -> Icons.Outlined.ViewAgenda
+        MOUNT -> Icons.Outlined.FolderOpen
+        BACKUP -> Icons.Outlined.Backup
+        VENTOY -> Icons.Outlined.Layers
+        MULTIBOOT -> Icons.Outlined.Apps
+        PS2 -> Icons.Outlined.SportsEsports
+        FILES -> Icons.Outlined.Folder
     }
 }
 
@@ -118,7 +141,7 @@ private fun Sidebar(vm: IMainViewModel, theme: AppTheme, es: Boolean, ctx: AppCo
         Tool.entries.groupBy { it.group }.forEach { (g, tools) ->
             Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
                 SectionLabel(if (es) GROUP_TITLES[g].first else GROUP_TITLES[g].second)
-                tools.forEach { NavItem(it.title(es), it == current, it.planned) { onRoute(it) } }
+                tools.forEach { NavItem(it.title(es), it.icon, it == current, it.planned) { onRoute(it) } }
             }
         }
         Preferences(vm, theme, es)
@@ -127,26 +150,47 @@ private fun Sidebar(vm: IMainViewModel, theme: AppTheme, es: Boolean, ctx: AppCo
 
 @Composable
 private fun Brand() {
-    Column {
-        Text("X-USB", style = MaterialTheme.typography.displayLarge, fontSize = 28.sp, color = MaterialTheme.colorScheme.primary)
-        Text("Static Forge", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        BrandMark(Modifier.size(40.dp))
+        Column {
+            Text("X-USB", style = MaterialTheme.typography.displayLarge, fontSize = 26.sp, color = MaterialTheme.colorScheme.onSurface)
+            Text("Static Forge", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+    }
+}
+
+/** La marca de X-USB (la X con el tridente USB del logo), dibujada para que siga el tema. */
+@Composable
+fun BrandMark(modifier: Modifier = Modifier) {
+    // Como el logo: X blanca sobre negro; el tridente USB toma el acento del tema.
+    val bg = Color.Black
+    val fg = Color.White
+    val accent = MaterialTheme.colorScheme.primary
+    Box(modifier.clip(RoundedCornerShape(10.dp)).background(bg).border(1.dp, MaterialTheme.colorScheme.outline, RoundedCornerShape(10.dp)), contentAlignment = Alignment.Center) {
+        Canvas(Modifier.fillMaxSize()) {
+            val w = size.width; val sw = w * 0.17f
+            drawLine(fg, Offset(w * 0.1f, w * 0.1f), Offset(w * 0.9f, w * 0.9f), sw, StrokeCap.Butt)
+            drawLine(fg, Offset(w * 0.9f, w * 0.1f), Offset(w * 0.1f, w * 0.9f), sw, StrokeCap.Butt)
+        }
+        Box(Modifier.fillMaxSize(0.5f).clip(RoundedCornerShape(50)).background(bg), contentAlignment = Alignment.Center) {
+            Icon(Icons.Outlined.Usb, null, tint = accent, modifier = Modifier.fillMaxSize(0.85f))
+        }
     }
 }
 
 @Composable
-private fun NavItem(label: String, selected: Boolean, planned: Boolean, onClick: () -> Unit) {
+private fun NavItem(label: String, icon: ImageVector, selected: Boolean, planned: Boolean, onClick: () -> Unit) {
     val accent = MaterialTheme.colorScheme.primary
     Surface(
         shape = MaterialTheme.shapes.small,
         color = if (selected) accent.copy(alpha = 0.14f) else Color.Transparent,
         modifier = Modifier.fillMaxWidth().selectable(selected = selected, role = Role.Tab, onClick = onClick)
     ) {
-        Text(
-            label, style = MaterialTheme.typography.bodyMedium,
-            fontWeight = if (selected) FontWeight.SemiBold else FontWeight.Normal,
-            color = if (selected) accent else if (planned) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.onSurface,
-            modifier = Modifier.padding(horizontal = 12.dp, vertical = 9.dp)
-        )
+        val tint = if (selected) accent else if (planned) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.onSurface
+        Row(Modifier.padding(horizontal = 12.dp, vertical = 9.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            Icon(icon, null, tint = tint, modifier = Modifier.size(18.dp))
+            Text(label, style = MaterialTheme.typography.bodyMedium, fontWeight = if (selected) FontWeight.SemiBold else FontWeight.Normal, color = tint)
+        }
     }
 }
 
@@ -162,7 +206,7 @@ private fun Preferences(vm: IMainViewModel, theme: AppTheme, es: Boolean) {
             Choice("ES", es, { if (!es) vm.toggleLang() })
             Choice("EN", !es, { if (es) vm.toggleLang() })
         }
-        Text("KCRooty (Core) · Static Forge", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text("KCRooty · Static Forge", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
 
@@ -182,9 +226,18 @@ private fun PhoneHome(vm: IMainViewModel, theme: AppTheme, es: Boolean, ctx: App
                         border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline),
                         modifier = Modifier.fillMaxWidth().clickable { onRoute(t) }
                     ) {
-                        Column(Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                            Text(t.title(es) + if (t.planned) tr("  (planificado)", "  (planned)") else "", style = MaterialTheme.typography.titleMedium)
-                            Text(t.summary(es), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Row(Modifier.padding(12.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+                            val tone = if (t.planned) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.primary
+                            Box(Modifier.size(42.dp).clip(RoundedCornerShape(10.dp)).background(tone.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
+                                Icon(t.icon, null, tint = tone, modifier = Modifier.size(22.dp))
+                            }
+                            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                                Text(t.title(es), style = MaterialTheme.typography.titleMedium,
+                                    color = if (t.planned) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.onSurface)
+                                Text(if (t.planned) tr("Planificado · ", "Planned · ") + t.summary(es) else t.summary(es),
+                                    style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            }
+                            Icon(Icons.Outlined.ChevronRight, null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(20.dp))
                         }
                     }
                 }

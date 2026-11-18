@@ -6,7 +6,13 @@
 - Listar, grabar ISO/IMG, borrar, copiar y restaurar ya no necesitan root: van por USB Host (protocolo de almacenamiento masivo con libaums). Solo hay que aceptar el aviso de permiso de Android al conectar el USB.
 - Al grabar o restaurar, el USB se vuelve a leer y se compara con la imagen.
 - Selector de archivos de Android para elegir imágenes y dónde guardar las copias.
-- Formatear, particiones y Ventoy siguen necesitando root; sin root avisan en vez de fallar a medias.
+- Formatear en FAT32 sin root: tabla MBR con una partición desde 1 MiB, formateada según la especificación de Microsoft. Probado contra imágenes de 512 MB a 40 GB, con sectores de 512 y 4096 bytes, con `fsck.fat` y mtools.
+- Ver la tabla de particiones (MBR y GPT) sin root, con el sistema de archivos de cada partición.
+- Los demás formatos, crear o borrar particiones y Ventoy siguen necesitando root; sin root avisan en vez de fallar a medias.
+
+### Aspecto
+- Icono de la app a partir del logo de X-USB (antes usaba el genérico de Android).
+- Marca en la cabecera e iconos en cada herramienta, en la barra lateral y en las tarjetas del móvil.
 
 ## 1.1.0 — 2026-11-17
 

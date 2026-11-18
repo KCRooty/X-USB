@@ -11,12 +11,14 @@ Es de [Static Forge](https://staticforge.me). Libre (GPL-3.0), gratis, sin anunc
 | Función | Linux | Windows | Android |
 |---|---|---|---|
 | Listar USB conectados | ✅ | ✅ | ✅ (sin root) |
-| Formatear FAT16/32, exFAT, NTFS | ✅ | ✅ (FAT32 ≤ 32 GB) | ✅ (root + herramientas) |
+| Formatear FAT32 | ✅ | ✅ (≤ 32 GB) | ✅ (sin root, cualquier tamaño hasta 2 TiB) |
+| Formatear FAT16, exFAT, NTFS | ✅ | ✅ | ✅ (root + herramientas) |
 | Formatear ext2/3/4, F2FS | ✅ | ❌ | ✅ (root + herramientas) |
 | Grabar ISO/IMG en bruto | ✅ | ✅ | ✅ (sin root, con verificación) |
 | Copia de seguridad y restauración | ✅ | ✅ | ✅ (sin root) |
 | Borrado | ✅ completo | ⚠️ rápido (tablas y firmas) | ✅ completo (sin root) |
-| Particiones: ver, crear, borrar | ✅ | ✅ | ✅ (root + herramientas) |
+| Particiones: ver | ✅ | ✅ | ✅ (sin root, MBR y GPT) |
+| Particiones: crear, borrar | ✅ | ✅ | ✅ (root + herramientas) |
 | Convertir MBR ⇄ GPT sin perder datos | ✅ | ❌ | ✅ (root + herramientas) |
 | BIN → ISO, descargador de ISOs | ✅ | ✅ | ✅ |
 | Ventoy | ❌ aún | ❌ aún | ❌ aún |
@@ -32,7 +34,7 @@ Antes de escribir, cada plataforma comprueba que el destino es un **disco USB** 
 
 - **Linux**: `parted`, `gdisk` (sgdisk), `dosfstools`, `exfatprogs`, `ntfs-3g`, `f2fs-tools` según lo que uses; permisos de administrador (se piden con `pkexec`).
 - **Windows 10/11**: ejecutar como **administrador** para modificar discos. Java 21 si usas el `.jar`.
-- **Android 8.0+** con **USB OTG**. Listar, grabar, borrar, copiar y restaurar funcionan **sin root**: la app habla con el pendrive por USB Host (con [libaums](https://github.com/magnusja/libaums)) y solo pide que aceptes el aviso de permiso de Android. Formatear, particiones y Ventoy necesitan todavía root y las herramientas `parted`, `sgdisk` y `mkfs.*`, que Android no trae.
+- **Android 8.0+** con **USB OTG**. Listar, grabar, borrar, copiar, restaurar, formatear en FAT32 y ver las particiones funcionan **sin root**: la app habla con el pendrive por USB Host (con [libaums](https://github.com/magnusja/libaums)) y solo pide que aceptes el aviso de permiso de Android. Los demás formatos, crear o borrar particiones y Ventoy necesitan todavía root y las herramientas `parted`, `sgdisk` y `mkfs.*`, que Android no trae.
 
 ## Instalar
 

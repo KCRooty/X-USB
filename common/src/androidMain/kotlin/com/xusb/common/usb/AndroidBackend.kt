@@ -8,6 +8,7 @@ import android.hardware.usb.UsbManager
 import android.os.Build
 import com.topjohnwu.superuser.CallbackList
 import com.topjohnwu.superuser.Shell
+import com.xusb.common.usb.raw.PartitionReader
 import com.xusb.common.usb.raw.RawOps
 import com.xusb.common.usb.raw.UsbBlockDevice
 import kotlinx.coroutines.flow.Flow
@@ -44,10 +45,11 @@ class LibsuShell : ShellExec {
 }
 
 /**
- * Android. Grabar, borrar, copiar y restaurar van por USB Host (sin root): la app habla con el
- * pendrive directamente y solo necesita que el usuario acepte el aviso de permiso de Android.
- * Formatear, particiones y Ventoy usan todavía las herramientas del sistema (parted, mkfs…) y
- * necesitan root; sin root fallan con un mensaje claro.
+ * Android. Sin root, por USB Host: listar, grabar, borrar, copiar, restaurar, formatear en FAT32 y
+ * ver la tabla de particiones. La app habla con el pendrive directamente y solo necesita que el
+ * usuario acepte el aviso de permiso de Android.
+ * El resto de formatos, crear o borrar particiones y Ventoy usan todavía las herramientas del
+ * sistema (parted, mkfs…) y necesitan root; sin root avisan con un mensaje claro.
  *
  * Las unidades se identifican como «usb:<ruta de USB Host>» (por ejemplo usb:/dev/bus/usb/001/002).
  */
@@ -58,13 +60,19 @@ class AndroidBackend(context: Context) : UsbBackend {
     private val shell = ShellBackend(LibsuShell(), "Android")
     private val sizes = ConcurrentHashMap<String, Long>()
     private val asked = ConcurrentHashMap.newKeySet<Int>()
+    @Volatile private var hasRoot: Boolean? = null
 
     override val platformName = "Android"
 
     /** Lo básico (grabar, borrar, copiar) funciona sin root, así que la app no bloquea nada de entrada. */
     override fun isPrivileged() = true
 
+    /** FAT32 siempre (sin root); el resto solo si ya se sabe que hay root. */
+    override fun supportedFilesystems(): List<Filesystem> =
+        if (hasRoot == true) Filesystem.entries else listOf(Filesystem.FAT32)
+
     override fun listDrives(): List<UsbDriveInfo> {
+        if (hasRoot == null) hasRoot = runCatching { shell.isPrivileged() }.getOrDefault(false)
         val devices = usb.deviceList.values.filter { UsbBlockDevice.isMassStorage(it) }
         val live = devices.map { it.deviceName }.toSet()
         sizes.keys.retainAll(live)
@@ -93,14 +101,16 @@ class AndroidBackend(context: Context) : UsbBackend {
 
     // ── Con root (de momento) ────────────────────────────────────────────
 
-    override fun format(device: String, fs: Filesystem, label: String, clusterSize: Int) = rooted(device) { shell.format(it, fs, label, clusterSize) }
+    override fun format(device: String, fs: Filesystem, label: String, clusterSize: Int): Flow<OperationProgress> =
+        if (fs == Filesystem.FAT32) withDevice(device) { raw.formatFat32(it, sanitizeLabel(label, fs), clusterSize) }
+        else rooted(device) { shell.format(it, fs, label, clusterSize) }
     override fun installVentoy(context: Any?, device: String, useGpt: Boolean, secureBoot: Boolean, update: Boolean) =
         rooted(device) { shell.installVentoy(context, it, useGpt, secureBoot, update) }
     override fun convertPartitionTable(device: String, toGpt: Boolean) = rooted(device) { shell.convertPartitionTable(it, toGpt) }
     override fun createPartition(device: String, fs: Filesystem) = rooted(device) { shell.createPartition(it, fs) }
     override fun deletePartition(device: String, partNum: Int) = rooted(device) { shell.deletePartition(it, partNum) }
-    override fun listPartitions(device: String): List<PartitionInfo> = blockNode(device)?.let { shell.listPartitions(it) } ?: emptyList()
-    override fun partitionTableType(device: String): String = blockNode(device)?.let { shell.partitionTableType(it) } ?: "Unknown"
+    override fun listPartitions(device: String): List<PartitionInfo> = table(device)?.partitions ?: emptyList()
+    override fun partitionTableType(device: String): String = table(device)?.type ?: "Unknown"
     override fun partitionPath(device: String, n: Int): String = shell.partitionPath(blockNode(device) ?: device, n)
     override fun mountPartition(partition: String, mountPoint: String) = shell.mountPartition(partition, mountPoint)
     override fun unmountPartition(mountPoint: String) = shell.unmountPartition(mountPoint)
@@ -127,9 +137,15 @@ class AndroidBackend(context: Context) : UsbBackend {
     }
 
     private fun rooted(device: String, op: (String) -> Flow<OperationProgress>): Flow<OperationProgress> {
-        if (!shell.isPrivileged()) return failure("Esta función todavía necesita root. Grabar, borrar y copiar funcionan sin root.")
+        if (!shell.isPrivileged()) return failure("Esta función todavía necesita root. Sin root puedes grabar, borrar, copiar y formatear en FAT32.")
         val node = blockNode(device) ?: return failure("No encuentro el nodo de bloque de este USB.")
         return op(node)
+    }
+
+    private fun table(device: String): PartitionReader.Table? {
+        val d = find(device) ?: return null
+        if (!usb.hasPermission(d)) return null
+        return runCatching { raw.readTable(d) }.getOrNull()
     }
 
     private fun readSize(d: UsbDevice): Long? =

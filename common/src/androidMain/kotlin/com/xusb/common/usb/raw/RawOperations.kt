@@ -12,6 +12,7 @@ import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.FlowCollector
+import kotlinx.coroutines.flow.channelFlow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import java.io.File
@@ -94,6 +95,23 @@ class RawOps(private val context: Context) {
                 writtenBytes = total, totalBytes = total, isComplete = true))
         }
     }.asOperation()
+
+    /** Tabla MBR con una partición FAT32 en todo el USB, sin root. */
+    fun formatFat32(device: UsbDevice, label: String, clusterBytes: Int): Flow<OperationProgress> = channelFlow {
+        send(OperationProgress(isRunning = true, label = "Abriendo el USB…"))
+        UsbBlockDevice.open(context, device).use { dev ->
+            var last = -1
+            Fat32Formatter.format(dev, label, clusterBytes) { f ->
+                val pct = (f * 100).toInt()
+                if (pct != last) { last = pct; trySend(OperationProgress(isRunning = true, label = "Formateando FAT32…", progressPct = f)) }
+            }
+        }
+        send(OperationProgress(isRunning = false, label = "Formateado en FAT32", progressPct = 1f, isComplete = true))
+    }.asOperation()
+
+    /** Tabla de particiones leída del propio USB, sin root. */
+    fun readTable(device: UsbDevice): PartitionReader.Table =
+        UsbBlockDevice.open(context, device).use { PartitionReader.read(it) }
 
     // ── Archivos: ruta normal o content:// ───────────────────────────────
 
