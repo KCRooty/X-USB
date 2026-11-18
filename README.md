@@ -36,6 +36,14 @@ Antes de escribir, cada plataforma comprueba que el destino es un **disco USB** 
 - **Windows 10/11**: ejecutar como **administrador** para modificar discos. Java 21 si usas el `.jar`.
 - **Android 8.0+** con **USB OTG**. Listar, grabar, borrar, copiar, restaurar, formatear en FAT32 y ver las particiones funcionan **sin root**: la app habla con el pendrive por USB Host (con [libaums](https://github.com/magnusja/libaums)) y solo pide que aceptes el aviso de permiso de Android. Los demás formatos, crear o borrar particiones y Ventoy necesitan todavía root y las herramientas `parted`, `sgdisk` y `mkfs.*`, que Android no trae.
 
+## Capturas
+
+Escritorio (Windows, tema oscuro):
+
+![Interfaz de X-USB](docs/screenshots/01-interfaz.png)
+
+![Descargador de ISO](docs/screenshots/02-descargador-isos.png)
+
 ## Instalar
 
 Descarga desde [Releases](https://github.com/KCRooty/X-USB/releases): APK (Android), `.deb` (Linux) y `.jar` (Windows, `java -jar`).

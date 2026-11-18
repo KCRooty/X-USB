@@ -1,6 +1,8 @@
 # Changelog
 
-## Sin publicar
+## 1.1.0 — 2026-11-18
+
+Versión multiplataforma: Android, Linux y Windows comparten interfaz y lógica.
 
 ### Android sin root
 - Listar, grabar ISO/IMG, borrar, copiar y restaurar ya no necesitan root: van por USB Host (protocolo de almacenamiento masivo con libaums). Solo hay que aceptar el aviso de permiso de Android al conectar el USB.
@@ -10,13 +12,9 @@
 - Ver la tabla de particiones (MBR y GPT) sin root, con el sistema de archivos de cada partición.
 - Los demás formatos, crear o borrar particiones y Ventoy siguen necesitando root; sin root avisan en vez de fallar a medias.
 
-### Aspecto
+### Aspecto (Android y escritorio)
 - Icono de la app a partir del logo de X-USB (antes usaba el genérico de Android).
 - Marca en la cabecera e iconos en cada herramienta, en la barra lateral y en las tarjetas del móvil.
-
-## 1.1.0 — 2026-11-17
-
-Versión multiplataforma: Android, Linux y Windows comparten interfaz y lógica.
 
 ### Nuevo
 - Escritorio (Linux y Windows) con operaciones reales sobre USB.
@@ -42,12 +40,12 @@ Versión multiplataforma: Android, Linux y Windows comparten interfaz y lógica.
 ### Verificado
 - **Linux**: 19 pruebas de integración contra imágenes loop (formato FAT32/ext4/exFAT/NTFS, particiones, MBR→GPT, escritura y copia con sha256, borrado, BIN→ISO, guardas). Todas pasan. Nunca contra discos reales.
 - **Windows**: compila y el JAR arranca. No se han ejecutado escrituras (requieren administrador y un disco de pruebas).
-- **Android**: el APK compila. No se ha ejecutado en un dispositivo.
+- **Android**: el APK compila en CI. El formateador FAT32 propio se probó contra imágenes de 512 MB a 40 GB con `fsck.fat` y mtools. **El acceso por USB Host (grabar, borrar, copiar, restaurar) no se ha probado todavía en un dispositivo real.**
 
 ### Limitaciones conocidas
 - Ventoy no está integrado en ninguna plataforma.
 - Windows: sin ext2/3/4 ni F2FS; FAT32 solo hasta 32 GB; MBR⇄GPT exige borrar el disco; el borrado es rápido, no completo.
-- Android: necesita root y las herramientas `parted`, `sgdisk` y `mkfs.*`, que no vienen de serie.
+- Android: sin root solo FAT32, grabar, borrar, copiar, restaurar y ver particiones; el resto (otros formatos, crear o borrar particiones, MBR⇄GPT) necesita root y las herramientas `parted`, `sgdisk` y `mkfs.*`, que no vienen de serie.
 - El redimensionado de particiones no está implementado.
 
 ## 1.0.0
