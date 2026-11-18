@@ -2,43 +2,57 @@
 
 # X-USB
 
-Herramienta para pendrives y discos USB en Android: grabar ISOs, montar un USB con Ventoy, formatear, gestionar particiones y borrar de forma segura. Pensada para hacer desde el móvil lo que normalmente harías con Rufus o Ventoy en el PC.
+Herramienta para pendrives y discos USB, en **Android, Linux y Windows**, con la misma interfaz y la misma lógica en las tres: formatear, grabar imágenes, hacer copias, gestionar particiones y borrar.
 
-Es de [Static Forge](https://staticforge.me). Libre, gratis, sin anuncios y sin telemetría.
+Es de [Static Forge](https://staticforge.me). Libre (GPL-3.0), gratis, sin anuncios y sin telemetría.
 
-## Qué hace
+## Qué hace (y dónde)
 
-- **Grabar ISO/IMG** en un USB, bloque a bloque.
-- **Ventoy**: instala Ventoy en el USB (MBR o GPT, con o sin Secure Boot) para arrancar varias ISOs sin volver a formatear.
-- **Formatear** en FAT16, FAT32, exFAT, NTFS, ext2/3/4 y F2FS, eligiendo tamaño de clúster y etiqueta. Antes de tocar nada enseña un resumen y pide confirmación.
-- **Particiones**: ver, crear, borrar y redimensionar.
-- **BIN a ISO**: convierte imágenes BIN/CUE.
-- **Borrado seguro** del dispositivo.
-- **Descargador de ISOs** con un catálogo de distribuciones.
-- Temas: morado oscuro, claro y azul con amarillo. Español e inglés.
+| Función | Linux | Windows | Android |
+|---|---|---|---|
+| Listar USB conectados | ✅ | ✅ | ✅ (root) |
+| Formatear FAT16/32, exFAT, NTFS | ✅ | ✅ (FAT32 ≤ 32 GB) | ✅ (root + herramientas) |
+| Formatear ext2/3/4, F2FS | ✅ | ❌ | ✅ (root + herramientas) |
+| Grabar ISO/IMG en bruto | ✅ | ✅ | ✅ (root) |
+| Copia de seguridad y restauración | ✅ | ✅ | ✅ (root) |
+| Borrado | ✅ completo | ⚠️ rápido (tablas y firmas) | ✅ completo |
+| Particiones: ver, crear, borrar | ✅ | ✅ | ✅ (root + herramientas) |
+| Convertir MBR ⇄ GPT sin perder datos | ✅ | ❌ | ✅ (root + herramientas) |
+| BIN → ISO, descargador de ISOs | ✅ | ✅ | ✅ |
+| Ventoy | ❌ aún | ❌ aún | ❌ aún |
+
+- ✅ = implementado. Lo que se ha ejecutado de verdad y lo que solo compila está detallado en [CHANGELOG.md](CHANGELOG.md).
+- Lo que no funciona en una plataforma devuelve un error claro; nada finge haber terminado.
+
+## Seguridad
+
+Antes de escribir, cada plataforma comprueba que el destino es un **disco USB** y **no** el disco del sistema ni uno de arranque. Aun así, escribir en un disco es destructivo: comprueba siempre qué dispositivo has elegido.
 
 ## Requisitos
 
-- Android 8.0 o superior con **USB OTG**.
-- **Root** para todo lo que escribe en el dispositivo (formatear, grabar, particiones). Sin root solo funcionan las partes que no tocan el disco, como el descargador.
+- **Linux**: `parted`, `gdisk` (sgdisk), `dosfstools`, `exfatprogs`, `ntfs-3g`, `f2fs-tools` según lo que uses; permisos de administrador (se piden con `pkexec`).
+- **Windows 10/11**: ejecutar como **administrador** para modificar discos. Java 21 si usas el `.jar`.
+- **Android 8.0+** con **USB OTG** y **root**. Android no trae `parted`, `sgdisk` ni `mkfs.*`: sin ellos las operaciones dan error.
 
 ## Instalar
 
-Descarga la APK desde [Releases](https://github.com/KCRooty/X-USB/releases).
+Descarga desde [Releases](https://github.com/KCRooty/X-USB/releases): APK (Android), `.deb` (Linux) y `.jar` (Windows, `java -jar`).
 
 ## Compilar
 
-Necesitas JDK 17 y el SDK de Android (plataforma 34).
+JDK 21 y el SDK de Android (plataforma 34).
 
 ```sh
-./gradlew assembleDebug
+./gradlew :app:assembleDebug                  # APK
+./gradlew :desktop:run                        # escritorio
+./gradlew :desktop:packageUberJarForCurrentOS # JAR portable
 ```
 
-La APK sale en `app/build/outputs/apk/debug/`.
+## Estructura
 
-## Estado
-
-Proyecto en desarrollo. Cada operación que escribe en un disco pide confirmación, pero úsalo con cuidado y comprueba siempre qué dispositivo has elegido.
+- `common/` — interfaz (Compose Multiplatform) y lógica compartida (`ShellBackend`, `JvmOps`).
+- `desktop/` — Linux y Windows (`LinuxBackend`, `WindowsBackend`).
+- `app/` — Android (`AndroidBackend` con root vía libsu).
 
 ## Licencia
 

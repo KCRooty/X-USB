@@ -1,0 +1,40 @@
+# Changelog
+
+## 1.1.0 — 2026-11-17
+
+Versión multiplataforma: Android, Linux y Windows comparten interfaz y lógica.
+
+### Nuevo
+- Escritorio (Linux y Windows) con operaciones reales sobre USB.
+- Backend común `ShellBackend`: descubrimiento por sysfs, guardas de seguridad, `dd` con progreso, formato, particiones, MBR⇄GPT.
+- Windows: listado, formato, borrado rápido, escritura/copia en bruto y particiones vía PowerShell.
+- Comprobación de seguridad: solo se actúa sobre discos USB que no sean del sistema ni de arranque.
+
+### Interfaz nueva (identidad «Forja»)
+- Rediseño completo de la interfaz común: grafito cálido con un único acento brasa, tema claro «Papel», datos técnicos en monoespaciada.
+- Escritorio: barra lateral con selector de unidad y herramientas agrupadas; móvil: inicio con lista. Se adapta al ancho.
+- Selector de unidad real (varias unidades, actualizar, causa y siguiente paso si no hay ninguna o faltan permisos).
+- Las operaciones destructivas piden escribir el identificador de la unidad (por ejemplo `sdb`) tras un resumen de lo que se pierde.
+- Progreso real de cada operación; los errores se muestran tal cual los da el sistema.
+- Selector de archivos en escritorio para imágenes y copias; la ISO descargada queda propuesta al grabar.
+- Las herramientas sin implementar (Ventoy, multi-arranque, PS2, archivos) aparecen como «planificado» y no hacen nada.
+- El catálogo de ISO solo conserva enlaces directos comprobados el 2026-11-17 (se retiraron los que daban 404 o no eran una ISO).
+- Se corrigió: textos ilegibles sobre fondo oscuro, botones sin acción, etiqueta de formato fija y uso incorrecto de la ruta de partición.
+
+### Cambiado
+- Android usa la misma interfaz que el escritorio (se retiró la interfaz duplicada).
+- El escritorio de la 1.0.0 era una maqueta: ya no hay operaciones simuladas.
+
+### Verificado
+- **Linux**: 19 pruebas de integración contra imágenes loop (formato FAT32/ext4/exFAT/NTFS, particiones, MBR→GPT, escritura y copia con sha256, borrado, BIN→ISO, guardas). Todas pasan. Nunca contra discos reales.
+- **Windows**: compila y el JAR arranca. No se han ejecutado escrituras (requieren administrador y un disco de pruebas).
+- **Android**: el APK compila. No se ha ejecutado en un dispositivo.
+
+### Limitaciones conocidas
+- Ventoy no está integrado en ninguna plataforma.
+- Windows: sin ext2/3/4 ni F2FS; FAT32 solo hasta 32 GB; MBR⇄GPT exige borrar el disco; el borrado es rápido, no completo.
+- Android: necesita root y las herramientas `parted`, `sgdisk` y `mkfs.*`, que no vienen de serie.
+- El redimensionado de particiones no está implementado.
+
+## 1.0.0
+Primera versión: solo Android. La versión de escritorio incluida era una maqueta sin operaciones reales.
