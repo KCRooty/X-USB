@@ -1,5 +1,13 @@
 # Changelog
 
+## Sin publicar
+
+### Android sin root
+- Listar, grabar ISO/IMG, borrar, copiar y restaurar ya no necesitan root: van por USB Host (protocolo de almacenamiento masivo con libaums). Solo hay que aceptar el aviso de permiso de Android al conectar el USB.
+- Al grabar o restaurar, el USB se vuelve a leer y se compara con la imagen.
+- Selector de archivos de Android para elegir imágenes y dónde guardar las copias.
+- Formatear, particiones y Ventoy siguen necesitando root; sin root avisan en vez de fallar a medias.
+
 ## 1.1.0 — 2026-11-17
 
 Versión multiplataforma: Android, Linux y Windows comparten interfaz y lógica.

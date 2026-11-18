@@ -39,6 +39,8 @@ kotlin {
             dependencies {
                 implementation("androidx.activity:activity-compose:1.9.0")
                 implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+                // Acceso al USB sin root (USB Host + SCSI)
+                implementation("me.jahnen.libaums:core:0.10.0")
                 implementation("com.github.topjohnwu.libsu:core:5.3.0")
                 implementation("com.github.topjohnwu.libsu:io:5.3.0")
             }

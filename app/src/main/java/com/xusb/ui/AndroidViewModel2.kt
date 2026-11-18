@@ -14,6 +14,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.xusb.common.IMainViewModel
 import com.xusb.common.ui.theme.AppTheme
+import com.xusb.common.usb.AndroidBackend
 import com.xusb.common.usb.UsbDriveInfo
 import com.xusb.common.usb.UsbPlatform
 import kotlinx.coroutines.Dispatchers
@@ -26,8 +27,8 @@ private val THEME_KEY = intPreferencesKey("theme")
 private val LANG_KEY = intPreferencesKey("lang") // 0=en, 1=es
 
 /**
- * Estado de la app en Android. Los discos se descubren con el backend (sysfs + root);
- * el sistema solo avisa de conexiones/desconexiones para volver a listarlos.
+ * Estado de la app en Android. Los USB se descubren con el backend (USB Host, sin root);
+ * el sistema avisa de conexiones, desconexiones y permisos concedidos para volver a listarlos.
  */
 class AndroidViewModel2(app: Application) : AndroidViewModel(app), IMainViewModel {
 
@@ -47,6 +48,7 @@ class AndroidViewModel2(app: Application) : AndroidViewModel(app), IMainViewMode
         val filter = IntentFilter().apply {
             addAction(UsbManager.ACTION_USB_DEVICE_ATTACHED)
             addAction(UsbManager.ACTION_USB_DEVICE_DETACHED)
+            addAction(AndroidBackend.ACTION_USB_PERMISSION) // al aceptar el aviso de permiso, se vuelve a listar
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU)
             app.registerReceiver(receiver, filter, Context.RECEIVER_NOT_EXPORTED)
